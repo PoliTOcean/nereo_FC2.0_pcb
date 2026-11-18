@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "92ceb563-b7f5-4ba0-9acd-2bd947ee2153")
+	(paper "A4")
+	(title_block
+		(date "2026-11-18")
+		(rev "0.1")
+		(company "PoliTOcean")
+		(comment 1 "Dawit Pinto")
+		(comment 2 "Enrico Morani")
+		(comment 3 "Davide Mercandini")
+	)
+	(lib_symbols)
+)
