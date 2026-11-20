@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -398,7 +398,7 @@
       "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -430,7 +430,7 @@
         "uuid": "79d04962-2b38-4bf3-a32c-f156d229de57"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-5,#PWR1-85,C1-14,C20-35,D1-7,F1,FB1,J1-15,L1,NT1,Q1-6,R1-55,TP1-17,U1-15,Y1",
     "variants": []
   },
   "sheets": [
@@ -452,7 +452,7 @@
     ],
     [
       "9f6f7fe1-e0f8-497d-b5a9-c8641fa3dbbf",
-      "Flash"
+      "RPI Interface"
     ],
     [
       "06b9c8d9-15a7-458c-ac19-4b89ac627c7b",
