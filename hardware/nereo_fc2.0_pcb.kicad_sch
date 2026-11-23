@@ -13,10 +13,110 @@
 		(comment 2 "Enrico Morani")
 		(comment 3 "Davide Mercandini")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(rectangle
-		(start 201.93 115.57)
-		(end 217.17 118.11)
+		(start 185.42 115.57)
+		(end 200.66 118.11)
 		(stroke
 			(width 0)
 			(type default)
@@ -27,8 +127,21 @@
 		(uuid "1f1cb899-c774-45eb-9a41-abfed46949a3")
 	)
 	(rectangle
-		(start 201.93 76.2)
-		(end 217.17 88.9)
+		(start 162.56 123.19)
+		(end 219.71 139.7)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(uuid "44e7335a-79fe-452e-98bd-932f1c6285fe")
+	)
+	(rectangle
+		(start 185.42 76.2)
+		(end 200.66 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -39,8 +152,8 @@
 		(uuid "9035e244-4605-48e5-8760-172121cc9920")
 	)
 	(rectangle
-		(start 201.93 69.85)
-		(end 217.17 74.93)
+		(start 185.42 69.85)
+		(end 200.66 74.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -51,8 +164,8 @@
 		(uuid "a46c183f-0806-46d7-ab52-0f79fa9cc701")
 	)
 	(rectangle
-		(start 201.93 90.17)
-		(end 217.17 100.33)
+		(start 185.42 90.17)
+		(end 200.66 100.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -63,8 +176,8 @@
 		(uuid "c1069460-c6d5-4db9-bfb2-bca82978c7da")
 	)
 	(rectangle
-		(start 201.93 101.6)
-		(end 217.17 114.3)
+		(start 185.42 101.6)
+		(end 200.66 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -74,9 +187,21 @@
 		)
 		(uuid "f8514400-e857-4a89-8517-5df47564ee11")
 	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 191.262 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2a8f68f7-fcbc-43f5-b81f-3b603d806d12")
+	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 217.678 95.504 0)
+		(at 201.168 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -88,7 +213,7 @@
 	)
 	(text "Water Leak Sensor"
 		(exclude_from_sim no)
-		(at 217.678 116.84 0)
+		(at 201.168 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -100,7 +225,7 @@
 	)
 	(text "Magnetometer2"
 		(exclude_from_sim no)
-		(at 217.678 108.458 0)
+		(at 201.168 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -112,7 +237,7 @@
 	)
 	(text "Magnetometer1"
 		(exclude_from_sim no)
-		(at 217.678 82.804 0)
+		(at 201.168 82.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,7 +249,7 @@
 	)
 	(text "Barometer"
 		(exclude_from_sim no)
-		(at 217.678 72.39 0)
+		(at 201.168 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -135,32 +260,32 @@
 		(uuid "e003c5af-d467-4634-84d0-7c4bb9bd602b")
 	)
 	(junction
-		(at 190.5 105.41)
+		(at 173.99 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "400d5976-f29a-4b82-b65c-002a87cbd401")
 	)
 	(junction
-		(at 187.96 102.87)
+		(at 172.72 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e330609-30fa-4c23-954d-b3e4bab9121f")
 	)
 	(junction
-		(at 180.34 77.47)
+		(at 170.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e550e91-7c6b-441e-a422-3ef7c0d2379f")
 	)
 	(junction
-		(at 182.88 80.01)
+		(at 171.45 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7e20314-41e2-40ab-8f04-0622e2ed133a")
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 200.66 102.87)
+			(xy 160.02 102.87) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -170,7 +295,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 132.08 105.41)
+			(xy 128.27 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +305,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 129.54 62.23)
+			(xy 132.08 66.04) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -190,7 +315,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 200.66 107.95)
+			(xy 175.26 107.95) (xy 184.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -200,7 +325,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 132.08 100.33)
+			(xy 128.27 100.33) (xy 132.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -210,7 +335,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 119.38) (xy 134.62 125.73)
+			(xy 134.62 119.38) (xy 134.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -220,7 +345,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 71.12) (xy 180.34 71.12)
+			(xy 184.15 71.12) (xy 170.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -230,7 +355,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 132.08 90.17)
+			(xy 128.27 90.17) (xy 132.08 90.17)
 		)
 		(stroke
 			(width 0)
@@ -240,7 +365,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 73.66) (xy 182.88 73.66)
+			(xy 184.15 73.66) (xy 171.45 73.66)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +375,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 160.02 99.06)
+			(xy 171.45 99.06) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -260,7 +385,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 149.86 125.73)
+			(xy 149.86 119.38) (xy 149.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +405,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38) (xy 157.48 125.73)
+			(xy 157.48 119.38) (xy 157.48 123.19)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +415,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 182.88 99.06)
+			(xy 171.45 80.01) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -300,7 +425,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 180.34 96.52)
+			(xy 170.18 77.47) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -320,7 +445,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 160.02 96.52)
+			(xy 170.18 96.52) (xy 160.02 96.52)
 		)
 		(stroke
 			(width 0)
@@ -330,7 +455,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 190.5 105.41)
+			(xy 173.99 93.98) (xy 173.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -340,7 +465,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 200.66 99.06)
+			(xy 175.26 99.06) (xy 184.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -350,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 182.88 80.01)
+			(xy 171.45 73.66) (xy 171.45 80.01)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 200.66 113.03)
+			(xy 175.26 113.03) (xy 184.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +505,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 119.38) (xy 139.7 125.73)
+			(xy 139.7 119.38) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +545,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 132.08 87.63)
+			(xy 128.27 87.63) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
@@ -430,7 +555,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 119.38) (xy 154.94 125.73)
+			(xy 154.94 119.38) (xy 154.94 123.19)
 		)
 		(stroke
 			(width 0)
@@ -450,7 +575,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 93.98) (xy 190.5 93.98)
+			(xy 184.15 93.98) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -460,7 +585,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 129.54 71.12)
+			(xy 129.54 66.04) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -470,7 +595,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 187.96 102.87)
+			(xy 172.72 91.44) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -480,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 116.84) (xy 200.66 116.84)
+			(xy 175.26 116.84) (xy 184.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 180.34 77.47)
+			(xy 170.18 71.12) (xy 170.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 119.38) (xy 142.24 125.73)
+			(xy 142.24 119.38) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 102.87) (xy 132.08 102.87)
+			(xy 128.27 102.87) (xy 132.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 137.16 125.73)
+			(xy 137.16 119.38) (xy 137.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 91.44) (xy 187.96 91.44)
+			(xy 184.15 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -540,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 132.08 97.79)
+			(xy 128.27 97.79) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -550,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 77.47) (xy 180.34 77.47)
+			(xy 184.15 77.47) (xy 170.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +685,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 96.52) (xy 200.66 96.52)
+			(xy 175.26 96.52) (xy 184.15 96.52)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +695,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 200.66 110.49)
+			(xy 175.26 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 85.09) (xy 200.66 85.09)
+			(xy 175.26 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 200.66 80.01)
+			(xy 171.45 80.01) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +735,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 119.38) (xy 152.4 125.73)
+			(xy 152.4 119.38) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -620,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 200.66 105.41)
+			(xy 160.02 105.41) (xy 184.15 105.41)
 		)
 		(stroke
 			(width 0)
@@ -630,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 87.63) (xy 200.66 87.63)
+			(xy 175.26 87.63) (xy 184.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 82.55) (xy 200.66 82.55)
+			(xy 175.26 82.55) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +805,7 @@
 		(uuid "00d7021d-531c-4709-b9e3-1ad5bec5d11d")
 	)
 	(label "E-WLS"
-		(at 191.77 116.84 0)
+		(at 175.26 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -691,7 +816,7 @@
 		(uuid "0cd844ef-dc53-4b8c-b50a-b51cbdac2d65")
 	)
 	(label "E2-XL1"
-		(at 191.77 110.49 0)
+		(at 175.26 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -702,7 +827,7 @@
 		(uuid "16008935-d631-4cc3-b9c7-469b37dc6850")
 	)
 	(label "E1-XL1"
-		(at 191.77 85.09 0)
+		(at 175.26 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -713,7 +838,7 @@
 		(uuid "3bdb86d9-0c3c-4ed6-9f9d-11d5b89d5786")
 	)
 	(label "E-MAG2"
-		(at 191.77 113.03 0)
+		(at 175.26 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -735,7 +860,7 @@
 		(uuid "50efd65e-209b-4986-9bda-668e31610297")
 	)
 	(label "E-IMU2"
-		(at 191.77 96.52 0)
+		(at 175.26 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -746,7 +871,7 @@
 		(uuid "65fb27d6-7d99-45aa-b7a3-63c1fc2ed5bc")
 	)
 	(label "E2-XL2"
-		(at 191.77 107.95 0)
+		(at 175.26 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -779,7 +904,7 @@
 		(uuid "77a9dafe-1e76-470b-8024-f9de90611006")
 	)
 	(label "E-IMU1"
-		(at 191.77 99.06 0)
+		(at 175.26 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -823,7 +948,7 @@
 		(uuid "c0d0b91c-382b-4596-b95a-ab07e92c16d9")
 	)
 	(label "E-MAG1"
-		(at 191.77 87.63 0)
+		(at 175.26 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -845,7 +970,7 @@
 		(uuid "fa31cd15-24e8-4c17-be0e-2b510e9f0dbb")
 	)
 	(label "E1-XL2"
-		(at 191.77 82.55 0)
+		(at 175.26 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -865,6 +990,298 @@
 			(justify right bottom)
 		)
 		(uuid "ff8dd3a5-0b6b-4c36-9dde-4cb1f921fda2")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 170.18 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d527a91-438b-43ec-959d-e4742a115fc6")
+		(property "Reference" "H1"
+			(at 170.18 131.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 170.18 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 170.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 184.15 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e09a9c4-9f99-46e7-84f2-b04892e27a92")
+		(property "Reference" "H2"
+			(at 184.15 131.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 184.15 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 184.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 184.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 198.12 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b0a79f8-6567-42e4-9531-2ceab50d1bc2")
+		(property "Reference" "H3"
+			(at 198.12 131.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 198.12 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 198.12 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 198.12 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 212.09 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8df6f15-5b84-4fbe-a11c-d6ef01a3f256")
+		(property "Reference" "H4"
+			(at 212.09 131.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 212.09 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 132.08 69.85)
@@ -1045,46 +1462,6 @@
 				(justify left)
 			)
 		)
-		(pin "USART2_CTS" bidirectional
-			(at 132.08 97.79 180)
-			(uuid "b3981c72-0841-4b67-b233-80c6a264cb74")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_RTS" bidirectional
-			(at 132.08 100.33 180)
-			(uuid "c262b4c7-d693-49ff-9ac2-37b35ff66275")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_RX" bidirectional
-			(at 132.08 105.41 180)
-			(uuid "d4bb026d-0d74-4966-85b7-0c7a2e0a7e0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_TX" bidirectional
-			(at 132.08 102.87 180)
-			(uuid "a2c5d24c-26b0-48ad-a970-b2d88d1b3df3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "EXTI_1_MAG" input
 			(at 160.02 71.12 0)
 			(uuid "5943a903-8590-4d40-b6e2-e4daebff874a")
@@ -1185,6 +1562,46 @@
 				(justify left)
 			)
 		)
+		(pin "USART1_CTS" bidirectional
+			(at 132.08 97.79 180)
+			(uuid "abd153ca-50eb-4236-b7de-b620de18f477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_RTS" bidirectional
+			(at 132.08 100.33 180)
+			(uuid "cb042127-d088-40a7-9aa8-6ff0b9975c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_RX" bidirectional
+			(at 132.08 102.87 180)
+			(uuid "68b6e5c0-ad7a-4a58-b622-e96422d2db86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_TX" bidirectional
+			(at 132.08 105.41 180)
+			(uuid "f309d595-d10f-4866-a007-705f5a2dc174")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57"
@@ -1194,7 +1611,7 @@
 		)
 	)
 	(sheet
-		(at 200.66 68.58)
+		(at 184.15 68.58)
 		(size 35.56 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1209,7 +1626,7 @@
 		)
 		(uuid "3e656227-049c-4d15-ad4c-50051d65e8d4")
 		(property "Sheetname" "Sensors"
-			(at 231.394 93.726 0)
+			(at 214.884 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1221,7 +1638,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 200.66 72.9746 0)
+			(at 184.15 72.9746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1233,7 +1650,7 @@
 			)
 		)
 		(pin "Barometer_SCL" bidirectional
-			(at 200.66 71.12 180)
+			(at 184.15 71.12 180)
 			(uuid "78e6c56d-4cad-46a1-90b6-611a1a6e6cfe")
 			(effects
 				(font
@@ -1243,7 +1660,7 @@
 			)
 		)
 		(pin "Barometer_SDA" bidirectional
-			(at 200.66 73.66 180)
+			(at 184.15 73.66 180)
 			(uuid "692734dd-2590-42ea-8e59-67852ff20afd")
 			(effects
 				(font
@@ -1253,7 +1670,7 @@
 			)
 		)
 		(pin "EXTI_1_MAG" output
-			(at 200.66 87.63 180)
+			(at 184.15 87.63 180)
 			(uuid "078852fc-ffea-4954-af66-12dc33e99f8b")
 			(effects
 				(font
@@ -1263,7 +1680,7 @@
 			)
 		)
 		(pin "EXTI_1_XL_1" output
-			(at 200.66 85.09 180)
+			(at 184.15 85.09 180)
 			(uuid "aa9059a3-e92c-401a-9a83-fb687ddb31f2")
 			(effects
 				(font
@@ -1273,7 +1690,7 @@
 			)
 		)
 		(pin "EXTI_1_XL_2" output
-			(at 200.66 82.55 180)
+			(at 184.15 82.55 180)
 			(uuid "4f2601cd-494f-47d7-b13f-761dffd541b5")
 			(effects
 				(font
@@ -1283,7 +1700,7 @@
 			)
 		)
 		(pin "EXTI_2_MAG" output
-			(at 200.66 113.03 180)
+			(at 184.15 113.03 180)
 			(uuid "4d5a1afa-d131-49fe-9eba-e506a87cb392")
 			(effects
 				(font
@@ -1293,7 +1710,7 @@
 			)
 		)
 		(pin "EXTI_2_XL_1" output
-			(at 200.66 110.49 180)
+			(at 184.15 110.49 180)
 			(uuid "ea79b551-284b-414d-a306-e770deb99b94")
 			(effects
 				(font
@@ -1303,7 +1720,7 @@
 			)
 		)
 		(pin "EXTI_2_XL_2" output
-			(at 200.66 107.95 180)
+			(at 184.15 107.95 180)
 			(uuid "9ccd0b03-a384-44af-922e-449fc980f5c0")
 			(effects
 				(font
@@ -1313,7 +1730,7 @@
 			)
 		)
 		(pin "EXTI_IMU_1" output
-			(at 200.66 99.06 180)
+			(at 184.15 99.06 180)
 			(uuid "c011a204-4351-48dc-a771-53d6aeb9e6f3")
 			(effects
 				(font
@@ -1323,7 +1740,7 @@
 			)
 		)
 		(pin "EXTI_IMU_2" output
-			(at 200.66 96.52 180)
+			(at 184.15 96.52 180)
 			(uuid "6add63e4-d299-417c-a971-b9ec6b9985c3")
 			(effects
 				(font
@@ -1333,7 +1750,7 @@
 			)
 		)
 		(pin "IMU_SCL" bidirectional
-			(at 200.66 91.44 180)
+			(at 184.15 91.44 180)
 			(uuid "477d6144-b19a-44af-bf70-20cb77115e31")
 			(effects
 				(font
@@ -1343,7 +1760,7 @@
 			)
 		)
 		(pin "IMU_SDA" bidirectional
-			(at 200.66 93.98 180)
+			(at 184.15 93.98 180)
 			(uuid "6926a766-59a7-4ffd-af75-d9a0f7296160")
 			(effects
 				(font
@@ -1353,7 +1770,7 @@
 			)
 		)
 		(pin "MAG_1_SCL" bidirectional
-			(at 200.66 77.47 180)
+			(at 184.15 77.47 180)
 			(uuid "b2600329-133d-422a-9ada-464b7e0f7b58")
 			(effects
 				(font
@@ -1363,7 +1780,7 @@
 			)
 		)
 		(pin "MAG_1_SDA" bidirectional
-			(at 200.66 80.01 180)
+			(at 184.15 80.01 180)
 			(uuid "5297543d-77b7-4971-9e14-bcf36f2b6de9")
 			(effects
 				(font
@@ -1373,7 +1790,7 @@
 			)
 		)
 		(pin "MAG_2_SCL" bidirectional
-			(at 200.66 102.87 180)
+			(at 184.15 102.87 180)
 			(uuid "c40ae96b-e7a4-4f9b-8084-476459d6ce4a")
 			(effects
 				(font
@@ -1383,7 +1800,7 @@
 			)
 		)
 		(pin "MAG_2_SDA" bidirectional
-			(at 200.66 105.41 180)
+			(at 184.15 105.41 180)
 			(uuid "ebf835ce-044e-4c74-b2ed-a8998156ab91")
 			(effects
 				(font
@@ -1393,7 +1810,7 @@
 			)
 		)
 		(pin "EXTI_WLS" output
-			(at 200.66 116.84 180)
+			(at 184.15 116.84 180)
 			(uuid "0c9adbca-6420-4485-8cd8-5f85f8788d1b")
 			(effects
 				(font
@@ -1411,7 +1828,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 125.73)
+		(at 132.08 123.19)
 		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1426,7 +1843,7 @@
 		)
 		(uuid "7178d69a-df26-430a-b78a-a325c6e283cb")
 		(property "Sheetname" "PWM_OUT"
-			(at 146.05 140.208 0)
+			(at 146.05 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1438,7 +1855,7 @@
 			)
 		)
 		(property "Sheetfile" "PWM_OUT.kicad_sch"
-			(at 132.08 130.1246 0)
+			(at 132.08 127.5846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1450,7 +1867,7 @@
 			)
 		)
 		(pin "ESC_THR_1" input
-			(at 134.62 125.73 90)
+			(at 134.62 123.19 90)
 			(uuid "ff235920-6688-4188-b492-ac73dbd7fd73")
 			(effects
 				(font
@@ -1460,7 +1877,7 @@
 			)
 		)
 		(pin "ESC_THR_2" input
-			(at 137.16 125.73 90)
+			(at 137.16 123.19 90)
 			(uuid "2c2a1210-533a-48f3-a02a-0f9ef535b816")
 			(effects
 				(font
@@ -1470,7 +1887,7 @@
 			)
 		)
 		(pin "ESC_THR_3" input
-			(at 139.7 125.73 90)
+			(at 139.7 123.19 90)
 			(uuid "d3e70473-064f-4efd-b0e0-ef3d4da09ae2")
 			(effects
 				(font
@@ -1480,7 +1897,7 @@
 			)
 		)
 		(pin "ESC_THR_4" input
-			(at 142.24 125.73 90)
+			(at 142.24 123.19 90)
 			(uuid "253b8006-0c84-48a1-8bc8-cba478c598a1")
 			(effects
 				(font
@@ -1490,7 +1907,7 @@
 			)
 		)
 		(pin "ESC_THR_5" input
-			(at 149.86 125.73 90)
+			(at 149.86 123.19 90)
 			(uuid "eaf4485f-aac4-419e-a6d3-91b82b4f21a3")
 			(effects
 				(font
@@ -1500,7 +1917,7 @@
 			)
 		)
 		(pin "ESC_THR_6" input
-			(at 152.4 125.73 90)
+			(at 152.4 123.19 90)
 			(uuid "a233da97-493a-4595-a255-2a06d476de5e")
 			(effects
 				(font
@@ -1510,7 +1927,7 @@
 			)
 		)
 		(pin "ESC_THR_7" input
-			(at 154.94 125.73 90)
+			(at 154.94 123.19 90)
 			(uuid "70720dfb-ca59-4e2b-892a-d901436540a5")
 			(effects
 				(font
@@ -1520,7 +1937,7 @@
 			)
 		)
 		(pin "ESC_THR_8" input
-			(at 157.48 125.73 90)
+			(at 157.48 123.19 90)
 			(uuid "65255e57-113b-4eda-a5ef-fb5b0344de86")
 			(effects
 				(font
@@ -1538,7 +1955,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 52.07)
+		(at 132.08 55.88)
 		(size 27.94 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1553,7 +1970,7 @@
 		)
 		(uuid "8eb00213-e50e-42cd-8dbf-40625fae679b")
 		(property "Sheetname" "Power"
-			(at 145.542 58.166 0)
+			(at 145.542 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1565,7 +1982,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 132.08 56.4646 0)
+			(at 132.08 60.2746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1577,7 +1994,7 @@
 			)
 		)
 		(pin "EXTI_PG" output
-			(at 132.08 62.23 180)
+			(at 132.08 66.04 180)
 			(uuid "d62dc9f5-11e0-4022-8e1e-308b8aa75d5a")
 			(effects
 				(font
@@ -1595,7 +2012,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 82.55)
+		(at 113.03 82.55)
 		(size 15.24 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1610,7 +2027,7 @@
 		)
 		(uuid "9f6f7fe1-e0f8-497d-b5a9-c8641fa3dbbf")
 		(property "Sheetname" "RPI Interface"
-			(at 113.03 117.348 0)
+			(at 120.65 117.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1622,7 +2039,7 @@
 			)
 		)
 		(property "Sheetfile" "RPI Interface.kicad_sch"
-			(at 105.41 86.9446 0)
+			(at 113.03 86.9446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1634,7 +2051,7 @@
 			)
 		)
 		(pin "BOOT_Rasp" output
-			(at 120.65 87.63 0)
+			(at 128.27 87.63 0)
 			(uuid "c31106bb-fc0e-44cb-9087-4422ded413e0")
 			(effects
 				(font
@@ -1644,7 +2061,7 @@
 			)
 		)
 		(pin "NRST_Rasp" output
-			(at 120.65 90.17 0)
+			(at 128.27 90.17 0)
 			(uuid "2890d932-b495-452f-8e81-a9710527f558")
 			(effects
 				(font
@@ -1653,8 +2070,8 @@
 				(justify right)
 			)
 		)
-		(pin "USART2_CTS" bidirectional
-			(at 120.65 100.33 0)
+		(pin "USART1_CTS" bidirectional
+			(at 128.27 100.33 0)
 			(uuid "6b7fc812-ee19-4a41-9ac9-fb5aca422487")
 			(effects
 				(font
@@ -1663,8 +2080,8 @@
 				(justify right)
 			)
 		)
-		(pin "USART2_RTS" bidirectional
-			(at 120.65 97.79 0)
+		(pin "USART1_RTS" bidirectional
+			(at 128.27 97.79 0)
 			(uuid "93ea51a1-1281-4139-aa77-b41e2337381f")
 			(effects
 				(font
@@ -1673,8 +2090,8 @@
 				(justify right)
 			)
 		)
-		(pin "USART2_RX" bidirectional
-			(at 120.65 105.41 0)
+		(pin "USART1_RX" bidirectional
+			(at 128.27 105.41 0)
 			(uuid "9b537e0e-2de5-4b50-95f1-dff2447b8b69")
 			(effects
 				(font
@@ -1683,8 +2100,8 @@
 				(justify right)
 			)
 		)
-		(pin "USART2_TX" bidirectional
-			(at 120.65 102.87 0)
+		(pin "USART1_TX" bidirectional
+			(at 128.27 102.87 0)
 			(uuid "b0bf21ab-d5f9-429b-a86a-700126cb91d7")
 			(effects
 				(font
