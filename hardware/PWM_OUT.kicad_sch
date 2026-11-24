@@ -311,7 +311,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:4N36"
+		(symbol "Isolator:LTV-847S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -321,54 +321,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at -3.81 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "4N36"
-				(at 0 5.08 0)
+			(property "Value" "LTV-847S"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-				(at -5.08 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-				(at 0 0 0)
+			(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -378,7 +351,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler Base Connected"
+			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+				(at -15.24 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -389,7 +373,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_keywords" "NPN DC Optocoupler"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -400,7 +384,18 @@
 					)
 				)
 			)
-			(symbol "4N36_0_1"
+			(property "ki_fp_filters" "SMDIP*W9.53mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTV-847S_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -414,7 +409,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -3.175 -2.54) (xy -3.175 2.54) (xy -5.08 2.54)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
 					)
 					(stroke
 						(width 0)
@@ -426,7 +421,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -0.635) (xy -2.54 -0.635)
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -438,7 +433,19 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -0.635) (xy -3.81 0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -450,7 +457,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0.508) (xy 0.635 0.508) (xy 0.254 0.381) (xy 0.254 0.635) (xy 0.635 0.508)
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
 						(width 0)
@@ -462,7 +469,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -0.508) (xy 0.635 -0.508) (xy 0.254 -0.635) (xy 0.254 -0.381) (xy 0.635 -0.508)
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -474,10 +481,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -0.254) (xy 2.667 -2.286)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
-						(width 0.3556)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -486,19 +493,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.667 -1.143) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 -1.397) (xy 3.81 -2.54)
+						(xy 2.54 0.635) (xy 4.445 2.54)
 					)
 					(stroke
 						(width 0)
@@ -510,7 +505,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.683 -2.413) (xy 3.429 -1.905) (xy 3.175 -2.159) (xy 3.683 -2.413)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0)
@@ -522,31 +529,19 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0) (xy 5.08 0)
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 3.81 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 1.905 2.54) (xy 1.905 -1.27) (xy 2.54 -1.27)
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -557,7 +552,7 @@
 					)
 				)
 			)
-			(symbol "4N36_1_1"
+			(symbol "LTV-847S_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -594,25 +589,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
@@ -623,25 +599,7 @@
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -659,7 +617,472 @@
 							)
 						)
 					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-847S_2_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-847S_3_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-847S_4_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:MMBT3906"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3906"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MMBT3906_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMBT3906_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -812,7 +1235,7 @@
 	)
 	(rectangle
 		(start 29.21 27.94)
-		(end 176.53 88.9)
+		(end 243.84 88.9)
 		(stroke
 			(width 0)
 			(type solid)
@@ -823,19 +1246,9 @@
 		)
 		(uuid "4a8ee672-ed97-489d-a600-76671db47389")
 	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 165.0493 55.118 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "045da00d-917a-4d14-b3ae-b9df173cd73a")
-	)
 	(text "Motors"
 		(exclude_from_sim no)
-		(at 102.87 30.48 0)
+		(at 132.08 29.718 0)
 		(effects
 			(font
 				(size 2 2)
@@ -845,987 +1258,691 @@
 		)
 		(uuid "152da8be-1029-40d4-8e76-8fad47d2c1ae")
 	)
-	(text "PWM"
+	(text "PWM\nGND"
 		(exclude_from_sim no)
-		(at 164.5674 80.518 0)
+		(at 164.846 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "1b866ac4-62e1-4987-a482-854c339a87bd")
+		(uuid "59c87fc4-0b35-4713-807c-ff38f315cd92")
 	)
-	(text "PWM"
+	(text "PWM\nGND"
 		(exclude_from_sim no)
-		(at 91.2121 66.548 0)
+		(at 61.976 51.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "246e3349-ce6a-4463-bd3f-92ff7e0d9793")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 164.8721 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "436a404c-9aba-469a-92fb-7c76a0c7846b")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 91.694 41.148 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4d53e6bf-aea5-4521-bcad-1fb9c4ad3e42")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 165.354 41.148 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51a098da-78bd-4d20-bd0a-23273a8ed042")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 90.9074 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5273c267-f91a-40be-b237-e6b9c6625fa5")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 91.694 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d781ba5-a5d3-4dc5-a3fa-1101a240d364")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 165.354 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b293ca3-51cd-44cd-921d-f29c3818a37b")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 165.0493 52.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "86e4273a-d472-44e1-aaef-cbaa6aad3dde")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 90.9074 83.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "89c2272a-a07b-4a0a-aa85-37b5cfe4aaef")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 91.2121 69.088 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9cb0c0cb-d23c-4a6e-b1a5-cedd873f3b84")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 164.5674 83.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ae6bf167-25e4-4d60-acdd-4c1b63f83306")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 91.3893 55.118 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b99ab514-87fe-4c45-87fe-2e95dfd82664")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 91.3893 52.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf1330a7-730d-4db5-8ad7-446f316b85f8")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 164.8721 69.088 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c65651a0-1829-480c-b970-fcfd29f976f5")
+		(uuid "7be1d4d2-6317-44bf-8959-63a2f8d1b767")
 	)
 	(junction
-		(at 153.67 83.82)
+		(at 120.65 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "010d0cea-2274-464c-9650-2dbc8fd8eea3")
+		(uuid "73517296-3b3e-480e-954a-f62a499de62a")
 	)
 	(junction
-		(at 153.67 69.85)
+		(at 132.08 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d399e1f-0d95-4d62-a43a-c22ed7d83c16")
+		(uuid "82f02c3f-e82d-491a-8e8d-45e0c828d358")
 	)
-	(junction
-		(at 80.01 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4296cd26-3c7d-42d5-a69d-23d77dafe049")
-	)
-	(junction
-		(at 153.67 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5986123a-d325-4ed4-8957-630ca65b11c2")
-	)
-	(junction
-		(at 80.01 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a2c71fa-a519-4a94-af22-dce5082f4c05")
-	)
-	(junction
-		(at 153.67 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "772b0ace-f29a-40b7-9394-ea97d128a691")
-	)
-	(junction
-		(at 80.01 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdb86234-0cb9-4e04-aa6f-d892f1dfda73")
-	)
-	(junction
-		(at 80.01 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1d6c717-548e-4bce-8433-4b63b08b442f")
-	)
-	(wire
-		(pts
-			(xy 142.24 67.31) (xy 154.94 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07dfd512-4dda-430c-9a82-77f4f45face3")
-	)
-	(wire
-		(pts
-			(xy 80.01 69.85) (xy 68.58 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a34ab8-833d-4467-bef1-013b8f7e18a7")
-	)
-	(wire
-		(pts
-			(xy 162.56 39.37) (xy 167.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0beca42d-b5b2-4005-bbe2-1bad29f886a6")
-	)
-	(wire
-		(pts
-			(xy 124.46 78.74) (xy 127 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102b351a-9707-4bb9-a5f1-eade7242f11d")
-	)
-	(wire
-		(pts
-			(xy 153.67 55.88) (xy 167.64 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1793ac32-e60c-4352-a87d-a0ae191c1d72")
-	)
-	(wire
-		(pts
-			(xy 68.58 53.34) (xy 81.28 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180b6e34-ae68-4c0e-8001-4c6f91d93c6e")
-	)
-	(wire
-		(pts
-			(xy 153.67 64.77) (xy 153.67 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19880559-896d-4c63-87cb-9cf36eec0a33")
-	)
-	(wire
-		(pts
-			(xy 114.3 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b79d4bd-b85d-44e1-bdd9-d98fa9f48f6c")
-	)
-	(wire
-		(pts
-			(xy 68.58 64.77) (xy 71.12 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bb6ee65-b1b0-4380-b9c2-cb65f9546bfc")
-	)
-	(wire
-		(pts
-			(xy 152.4 78.74) (xy 153.67 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c1e0020-718c-47ca-8a67-436bfb135d8d")
-	)
-	(wire
-		(pts
-			(xy 68.58 36.83) (xy 71.12 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d373fab-2749-4cb4-8610-f84e366b5ccc")
-	)
-	(wire
-		(pts
-			(xy 142.24 53.34) (xy 154.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212a29ff-3394-47bf-89fc-b6f4032cb09c")
-	)
-	(wire
-		(pts
-			(xy 153.67 36.83) (xy 153.67 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2400e2e0-879c-414b-b158-0ee24336b7b2")
-	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 127 55.88)
+			(xy 162.56 78.74) (xy 181.61 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dac0d66-fe1b-467d-a8df-1c33222f589f")
+		(uuid "00ebc831-3a46-419c-83c6-ca851c4445d8")
 	)
 	(wire
 		(pts
-			(xy 50.8 64.77) (xy 53.34 64.77)
+			(xy 120.65 105.41) (xy 120.65 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31ef9cda-da10-4bcd-a711-6963ce047f16")
+		(uuid "032861b2-4279-4bb7-b14b-ec9640c8a682")
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 93.98 41.91)
+			(xy 162.56 68.58) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32ac857c-5d1e-48e1-937c-eb83111256c9")
+		(uuid "165841cd-bf41-4e4d-a3a0-8acde7d278b8")
 	)
 	(wire
 		(pts
-			(xy 142.24 36.83) (xy 144.78 36.83)
+			(xy 162.56 52.07) (xy 162.56 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32f1a385-b7d2-432c-81be-d136c28e9b0c")
+		(uuid "1666c913-44c5-4d0b-adc9-85262254eee1")
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 167.64 83.82)
+			(xy 196.85 46.99) (xy 200.66 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34f26f57-3310-44ac-a67f-2b5b72fdbdb8")
+		(uuid "1c959a4e-2a84-4763-9521-b8c35b031fdf")
 	)
 	(wire
 		(pts
-			(xy 153.67 50.8) (xy 153.67 55.88)
+			(xy 59.69 66.04) (xy 67.31 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38c0a3b8-b75f-41eb-a945-835b9428f66a")
+		(uuid "24934db4-9f52-4802-ac86-b0648d5a05a2")
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 80.01 55.88)
+			(xy 105.41 57.15) (xy 118.11 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b22fc05-ec17-4d2b-8ad9-453b1d0494e0")
+		(uuid "25eacf4c-16ec-4fc5-9fb5-8c4aee317608")
 	)
 	(wire
 		(pts
-			(xy 50.8 78.74) (xy 53.34 78.74)
+			(xy 208.28 64.77) (xy 220.98 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ce1ea31-0334-4d7f-a026-b6327159b50e")
+		(uuid "28318e8a-0cc3-49f6-8901-51cab36fbda2")
 	)
 	(wire
 		(pts
-			(xy 40.64 64.77) (xy 43.18 64.77)
+			(xy 162.56 73.66) (xy 162.56 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e7938c3-bb7b-4513-9525-414d3d80ae8c")
+		(uuid "2a4ecced-47a4-421f-81f1-a3f5cb731f34")
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 167.64 69.85)
+			(xy 177.8 73.66) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4110a7bb-e543-4837-9e98-61cf29b5fa0c")
+		(uuid "2d41aa66-97cc-40b6-9778-f750121aca10")
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 93.98 53.34)
+			(xy 59.69 80.01) (xy 78.74 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43b3a4d1-b179-4bf3-ab8e-62eeb2ea984e")
+		(uuid "30df9b4d-4fc1-409d-a2e7-d585c46a9a34")
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 68.58 41.91)
+			(xy 132.08 116.84) (xy 132.08 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45eef66c-f895-4f04-aa9b-7fe9091da04f")
+		(uuid "32ed776d-adcb-4fcb-94c3-288d9bd3beb7")
 	)
 	(wire
 		(pts
-			(xy 68.58 67.31) (xy 81.28 67.31)
+			(xy 196.85 73.66) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cfba215-448b-40e2-b133-6caf66e0e2a6")
+		(uuid "3f0eaaec-a02f-47e2-bcc8-edcae051e575")
 	)
 	(wire
 		(pts
-			(xy 142.24 39.37) (xy 154.94 39.37)
+			(xy 162.56 60.96) (xy 181.61 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5190df8c-3125-4721-a2f2-fa3d86a86f2c")
+		(uuid "41981c80-d3a3-4011-b252-819d12574e2a")
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 127 64.77)
+			(xy 59.69 57.15) (xy 59.69 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5679a5b7-d512-480c-a3e3-daa459406325")
+		(uuid "44027c39-6a6e-4f9a-a60d-a215d3c306c0")
 	)
 	(wire
 		(pts
-			(xy 40.64 50.8) (xy 43.18 50.8)
+			(xy 74.93 48.26) (xy 78.74 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "591a86a3-39a3-4585-9427-c373bed6d1f0")
+		(uuid "4641ff00-949f-4571-a8cf-89399607695d")
 	)
 	(wire
 		(pts
-			(xy 162.56 67.31) (xy 167.64 67.31)
+			(xy 59.69 49.53) (xy 59.69 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f214cbe-0ef6-4dfe-ac44-cb1ecb55c377")
+		(uuid "46cec54a-e2f9-4f95-a3cf-e4ef56df50c5")
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 93.98 67.31)
+			(xy 208.28 55.88) (xy 220.98 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fba4129-d2ce-4ad2-bbf6-0634cce75eb2")
+		(uuid "4868b52d-37a0-4c37-96fd-5f1d2e8981d8")
 	)
 	(wire
 		(pts
-			(xy 114.3 64.77) (xy 116.84 64.77)
+			(xy 59.69 60.96) (xy 59.69 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61e1594a-afad-4473-bf7b-86849f545e22")
+		(uuid "58594cd9-e8d5-4a1a-b24c-1e359c3c85ac")
 	)
 	(wire
 		(pts
-			(xy 80.01 36.83) (xy 80.01 41.91)
+			(xy 162.56 64.77) (xy 170.18 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "663728ca-586e-4cf1-bc3d-3b4013322fa6")
+		(uuid "5c34c144-57ef-47d3-99e5-ff0ed3188313")
 	)
 	(wire
 		(pts
-			(xy 68.58 50.8) (xy 71.12 50.8)
+			(xy 104.14 111.76) (xy 106.68 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b57f4dc-84da-4ae1-854e-2e5dda959d15")
+		(uuid "5e1ecbd6-5988-4e40-bab5-2ea4b7dd61a2")
 	)
 	(wire
 		(pts
-			(xy 43.18 83.82) (xy 53.34 83.82)
+			(xy 59.69 74.93) (xy 59.69 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cac119d-3fde-4d4e-bcfb-862e8264059b")
+		(uuid "6892f2c4-2810-40e2-abd8-9635f0c7919d")
 	)
 	(wire
 		(pts
-			(xy 153.67 55.88) (xy 142.24 55.88)
+			(xy 59.69 48.26) (xy 67.31 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "748dce63-13b2-4c12-98ad-872409eaeaf9")
+		(uuid "6d01982f-1f3a-41c4-8949-9308a20cc2b5")
 	)
 	(wire
 		(pts
-			(xy 40.64 36.83) (xy 43.18 36.83)
+			(xy 59.69 78.74) (xy 59.69 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7beb0798-8f9a-4e1d-bdb1-f39c1fbca4f8")
+		(uuid "6f29c643-aa78-413c-992a-bf1f27f444f1")
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 127 50.8)
+			(xy 208.28 46.99) (xy 220.98 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c06c8a2-f69b-479a-9dca-0f2a63958ca0")
+		(uuid "727ab59f-c837-4431-bba5-7dd4e2f1cb82")
 	)
 	(wire
 		(pts
-			(xy 116.84 69.85) (xy 127 69.85)
+			(xy 196.85 55.88) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c6b3967-cf8b-48b3-9e63-9fcd187fe4c2")
+		(uuid "7584405e-58e3-4049-b14c-b3ad3b716109")
 	)
 	(wire
 		(pts
-			(xy 80.01 83.82) (xy 68.58 83.82)
+			(xy 128.27 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f615c92-01a3-4f12-84c6-9ba8758b686d")
+		(uuid "7be843e3-b909-4eb1-b1c0-439116fe1fe7")
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 53.34 55.88)
+			(xy 59.69 69.85) (xy 59.69 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84f3676e-8d33-4b01-b539-dc9196746519")
+		(uuid "7ca1910a-95f2-48b2-b442-1a83c0f61b34")
 	)
 	(wire
 		(pts
-			(xy 50.8 50.8) (xy 53.34 50.8)
+			(xy 105.41 48.26) (xy 118.11 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "868c00d6-448e-4514-b650-5cf85072b285")
+		(uuid "7fbf8cda-8280-4f71-8a7c-827971eaed91")
 	)
 	(wire
 		(pts
-			(xy 152.4 64.77) (xy 153.67 64.77)
+			(xy 162.56 46.99) (xy 170.18 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88a77a07-6e2e-4dcd-b31c-e1f3c608f8f0")
+		(uuid "80232f25-c1e0-4279-a301-7a52f8839964")
 	)
 	(wire
 		(pts
-			(xy 80.01 83.82) (xy 93.98 83.82)
+			(xy 105.41 66.04) (xy 118.11 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e3dfbae-8ba9-4310-920a-995ad100d311")
+		(uuid "8135615a-ad84-4ac9-a40f-73e95a4364e7")
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 167.64 81.28)
+			(xy 59.69 57.15) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9177df3a-e244-4197-be07-dc343c09511f")
+		(uuid "8925845f-4a5f-475b-8368-f8940d1c97f7")
 	)
 	(wire
 		(pts
-			(xy 80.01 64.77) (xy 80.01 69.85)
+			(xy 132.08 104.14) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92a4562a-6b87-4acf-9f26-52e344d6fc0a")
+		(uuid "89ec6947-e752-4a69-a83c-1c7d5bd3c14e")
 	)
 	(wire
 		(pts
-			(xy 153.67 78.74) (xy 153.67 83.82)
+			(xy 74.93 66.04) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "938a954f-a157-4150-afd4-2c7f5c1e9806")
+		(uuid "8a2a9dc8-8b26-428e-b69e-f177e7d08009")
 	)
 	(wire
 		(pts
-			(xy 43.18 69.85) (xy 53.34 69.85)
+			(xy 162.56 52.07) (xy 181.61 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93a98825-ae42-4be7-8eb0-5891e05cbf04")
+		(uuid "8cc565cf-f097-4a98-a862-7794ddbd1ec1")
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 144.78 50.8)
+			(xy 177.8 64.77) (xy 181.61 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95c13531-d099-4dc2-972e-e550b75bca9d")
+		(uuid "913acb51-8ae0-4814-9219-6903b2607bda")
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 153.67 36.83)
+			(xy 177.8 46.99) (xy 181.61 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97f94655-2c6f-4dd3-a63d-76b1bbd6c850")
+		(uuid "97877cfe-44da-41f9-9307-f6abe5b95401")
 	)
 	(wire
 		(pts
-			(xy 80.01 55.88) (xy 68.58 55.88)
+			(xy 93.98 48.26) (xy 97.79 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9909a6be-e4b3-4aee-bb4b-f28de7130b2e")
+		(uuid "9c7c288c-bc83-404b-84f7-4d94d2093b0a")
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 81.28 81.28)
+			(xy 208.28 73.66) (xy 220.98 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cd07467-9009-400d-9121-0a4392078f4e")
+		(uuid "9e1b6752-3e75-44dd-bcca-265c1448ce8b")
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 71.12 78.74)
+			(xy 162.56 73.66) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e1a0354-0543-4834-9aaf-c9f83c1f286b")
+		(uuid "a1496787-b2dc-4851-977a-30d2a632d6d3")
 	)
 	(wire
 		(pts
-			(xy 68.58 39.37) (xy 81.28 39.37)
+			(xy 132.08 105.41) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1ad5d43-8a5e-4cdb-8213-449da91b60fb")
+		(uuid "a1d9c7b5-3bea-485c-a7bb-a018b641f3da")
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 80.01 50.8)
+			(xy 162.56 69.85) (xy 181.61 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a22863ba-313d-4553-86a3-25fdc624996f")
+		(uuid "a3361bbe-b056-4808-9a22-bc3214da044f")
 	)
 	(wire
 		(pts
-			(xy 162.56 53.34) (xy 167.64 53.34)
+			(xy 162.56 55.88) (xy 170.18 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3bbe67e-f363-4e00-891b-f4779b2732dd")
+		(uuid "a44c59f6-cead-4f23-b9e5-3d188c16f98b")
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 142.24 83.82)
+			(xy 132.08 120.65) (xy 152.4 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a69745e2-0317-49a2-bdef-41903b845747")
+		(uuid "a81d7522-7272-465b-bbac-0b4b40d1158b")
 	)
 	(wire
 		(pts
-			(xy 40.64 78.74) (xy 43.18 78.74)
+			(xy 114.3 111.76) (xy 120.65 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7274aa8-b5c7-4cb7-882b-4f646da3a87d")
+		(uuid "a82bb12a-8c94-48d6-920f-160ac00e8d2f")
 	)
 	(wire
 		(pts
-			(xy 153.67 41.91) (xy 167.64 41.91)
+			(xy 162.56 77.47) (xy 162.56 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a795611e-61d7-462a-8992-2c3a07df312a")
+		(uuid "b4895d2b-3220-4193-af82-2676cb4c1f8d")
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 93.98 69.85)
+			(xy 59.69 53.34) (xy 78.74 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a3ab56-222c-4f1f-af5a-26ee3197a84c")
+		(uuid "b6910629-baff-4a46-b09b-eb6222fec839")
 	)
 	(wire
 		(pts
-			(xy 152.4 50.8) (xy 153.67 50.8)
+			(xy 59.69 66.04) (xy 59.69 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b63068f5-cfbe-4d66-85dc-7a88b83df54b")
+		(uuid "b944525b-4427-4631-8f8a-82da98064f36")
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 144.78 78.74)
+			(xy 93.98 66.04) (xy 97.79 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b973dd4d-1c75-40d8-a505-51a894aa90d3")
+		(uuid "c8c25251-d5d5-4669-aa86-e759a4708cdc")
 	)
 	(wire
 		(pts
-			(xy 80.01 55.88) (xy 93.98 55.88)
+			(xy 162.56 48.26) (xy 162.56 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd4a1655-3656-4d19-a379-eccc61a19771")
+		(uuid "c9ef0653-f75d-4a33-ad05-b733eef077e2")
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 53.34 36.83)
+			(xy 93.98 74.93) (xy 97.79 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "beac2cd3-dcf4-452d-833c-f6b742bb32bd")
+		(uuid "cbf7fdd5-d113-48ec-8b2b-c05081899d09")
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 116.84 50.8)
+			(xy 162.56 55.88) (xy 162.56 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c04cd635-3761-44db-933d-5b6266fd1ae6")
+		(uuid "cc77bb32-5674-419f-8e03-7eeb71f17ddc")
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 80.01 78.74)
+			(xy 177.8 55.88) (xy 181.61 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c565d16c-0397-49e6-86a8-c08e1abb65f8")
+		(uuid "d2414bf2-4d86-467b-9394-4eec9cac425d")
 	)
 	(wire
 		(pts
-			(xy 124.46 36.83) (xy 127 36.83)
+			(xy 105.41 74.93) (xy 118.11 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6156668-ae27-4c90-a0b9-4325aa9b5516")
+		(uuid "d241792f-f840-4341-8e86-dc38f42ee173")
 	)
 	(wire
 		(pts
-			(xy 116.84 41.91) (xy 127 41.91)
+			(xy 162.56 64.77) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0268ba0-7de2-4dba-a6bb-9416c1241494")
+		(uuid "d722b861-65db-4c10-ab48-14696c5afb71")
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 154.94 81.28)
+			(xy 120.65 111.76) (xy 124.46 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd80aed5-234a-4eb3-8b77-51bc2c9a1c5c")
+		(uuid "db415c51-7ddd-4bfd-917e-e0c51bda7a8b")
 	)
 	(wire
 		(pts
-			(xy 153.67 41.91) (xy 142.24 41.91)
+			(xy 162.56 59.69) (xy 162.56 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df6ef093-0028-4c91-a94a-cd73d710060e")
+		(uuid "e1eded94-ebbc-49c9-b08d-ff7b31ac7c12")
 	)
 	(wire
 		(pts
-			(xy 88.9 81.28) (xy 93.98 81.28)
+			(xy 74.93 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6c611de-b19f-4693-8987-3998957df93b")
+		(uuid "e2603e5c-295e-40c8-b835-ae3c7f4f2dcc")
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 144.78 64.77)
+			(xy 59.69 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e70fe5e7-b369-4b57-9245-eec102f4ae58")
+		(uuid "e94b6ffd-9e93-4e95-956c-48e79220e3d9")
 	)
 	(wire
 		(pts
-			(xy 78.74 36.83) (xy 80.01 36.83)
+			(xy 59.69 62.23) (xy 78.74 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e77ee823-b794-455d-87e0-bd2770c3e031")
+		(uuid "f0c38a28-fb5b-47b5-950d-6c72a7885048")
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 142.24 69.85)
+			(xy 74.93 57.15) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb99fc8e-57e9-479b-a557-2ea4bf729606")
+		(uuid "f2d8bcbd-5b5f-473b-901b-0b8f8f26e536")
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 127 83.82)
+			(xy 59.69 53.34) (xy 59.69 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4475a6a-e9db-45d7-8638-5dd076a9684b")
+		(uuid "f66124b5-9701-4cdf-8795-6b0dce86339a")
 	)
 	(wire
 		(pts
-			(xy 88.9 39.37) (xy 93.98 39.37)
+			(xy 93.98 57.15) (xy 97.79 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f510ee30-2d91-4f58-bbcb-6f6e6a0aaa63")
+		(uuid "f70c9893-2b06-4fc9-92b4-b71f81541722")
 	)
 	(wire
 		(pts
-			(xy 114.3 36.83) (xy 116.84 36.83)
+			(xy 196.85 64.77) (xy 200.66 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f99300b5-9fbd-4657-b2a3-d9016e3c30d3")
+		(uuid "f8651fd6-a078-4475-b5c3-aac1019cb6e9")
 	)
 	(wire
 		(pts
-			(xy 43.18 41.91) (xy 53.34 41.91)
+			(xy 59.69 74.93) (xy 67.31 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbd2014c-5b7f-4b24-ac0a-337b8fe2573f")
+		(uuid "f9092572-9ee1-4a0f-a32a-a051d9348ea3")
 	)
 	(polyline
 		(pts
-			(xy 102.87 33.02) (xy 102.87 87.63)
+			(xy 132.08 33.02) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1833,127 +1950,209 @@
 		)
 		(uuid "fc588250-b02a-4d3a-b927-1f0fbb2493ef")
 	)
-	(wire
-		(pts
-			(xy 78.74 64.77) (xy 80.01 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe43f886-4bc2-44c2-b70c-657cb76054cf")
-	)
-	(wire
-		(pts
-			(xy 80.01 78.74) (xy 80.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffce9078-8cc0-4175-afa4-1eb698917c93")
-	)
-	(hierarchical_label "ESC_THR_8"
-		(shape input)
-		(at 116.84 83.82 180)
+	(label "OPTO_PWR"
+		(at 118.11 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
+		)
+		(uuid "2f1eacdd-1060-4ea3-88e4-57efb6c59253")
+	)
+	(label "OPTO_PWR"
+		(at 118.11 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ba7bf34-202e-497e-a5bb-733602c3bfed")
+	)
+	(label "OPTO_PWR"
+		(at 118.11 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eadf8de-78d2-4b34-b188-d1270dcbee41")
+	)
+	(label "OPTO_PWR"
+		(at 220.98 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56e51785-3554-4f60-a323-cd51b7aa8574")
+	)
+	(label "OPTO_PWR"
+		(at 220.98 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59e36515-ed70-4050-94e4-a76b9a9d279d")
+	)
+	(label "OPTO_PWR"
+		(at 220.98 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e821288-4d9a-43d7-be75-f4d9ebe8ffee")
+	)
+	(label "OPTO_PWR"
+		(at 152.4 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ec018bb-0dbc-483b-b098-cabe6487f38c")
+	)
+	(label "OPTO_PWR"
+		(at 220.98 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d48e270-367d-4cc9-9fa7-e8bc120d116c")
+	)
+	(label "OPTO_PWR"
+		(at 118.11 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5944b27-9211-4e34-85e1-6d87b61771be")
+	)
+	(hierarchical_label "ESC_THR_8"
+		(shape input)
+		(at 196.85 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "3f732417-e5c8-44f6-8f6c-9f784a502edc")
 	)
 	(hierarchical_label "ESC_THR_2"
 		(shape input)
-		(at 43.18 55.88 180)
+		(at 93.98 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "46e9696e-8499-4fa3-b54b-ee5961497160")
 	)
 	(hierarchical_label "ESC_THR_5"
 		(shape input)
-		(at 116.84 41.91 180)
+		(at 196.85 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5095c7c8-df10-4ae7-922b-5c977f9b06fb")
 	)
 	(hierarchical_label "ESC_THR_7"
 		(shape input)
-		(at 116.84 69.85 180)
+		(at 196.85 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "689f9b63-d9e6-4a98-8b5f-bb40d6614dfd")
 	)
 	(hierarchical_label "ESC_THR_1"
 		(shape input)
-		(at 43.18 41.91 180)
+		(at 93.98 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "72c5ce04-f1ff-499a-bcba-2f7522ca363a")
 	)
 	(hierarchical_label "ESC_THR_6"
 		(shape input)
-		(at 116.84 55.88 180)
+		(at 196.85 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "84232ac2-da13-4b64-af3c-4b315d14f6dd")
 	)
 	(hierarchical_label "ESC_THR_4"
 		(shape input)
-		(at 43.18 83.82 180)
+		(at 93.98 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad46ef93-b310-4408-90de-921cf02f2cbe")
+	)
+	(hierarchical_label "DISARM"
+		(shape input)
+		(at 104.14 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ad46ef93-b310-4408-90de-921cf02f2cbe")
+		(uuid "d3ecd341-37fc-40a3-a415-3b5eefbe1dc3")
 	)
 	(hierarchical_label "ESC_THR_3"
 		(shape input)
-		(at 43.18 69.85 180)
+		(at 93.98 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e1356044-22d6-4c4a-9e36-e335ebf53eb9")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 148.59 78.74 90)
-		(unit 1)
+		(lib_id "Isolator:LTV-847S")
+		(at 189.23 58.42 0)
+		(mirror y)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0fa79e26-638b-492b-9676-4a0e9eec9e3c")
-		(property "Reference" "R35"
-			(at 148.59 76.454 90)
+		(uuid "0c4481bf-4ab2-4cde-b3fd-f9eeaef7475f")
+		(property "Reference" "U5"
+			(at 196.342 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1962,18 +2161,8 @@
 				)
 			)
 		)
-		(property "Value" "470k"
-			(at 148.59 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 80.518 90)
+		(property "Value" "LTV-847S"
+			(at 189.23 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1983,8 +2172,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 148.59 78.74 0)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 189.23 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,8 +2183,19 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 148.59 78.74 0)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 189.23 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2006,23 +2206,65 @@
 			)
 		)
 		(pin "2"
-			(uuid "7fbc09e8-ddcb-4d2d-bd85-b67c350e597e")
+			(uuid "2a5a24b0-2f3e-4a5f-8e87-fbc0060a9c4f")
+		)
+		(pin "6"
+			(uuid "5f5dc499-6600-4b03-acaf-43ec105dd1d2")
+		)
+		(pin "5"
+			(uuid "91688383-b097-4b3b-9e25-0a99082226a6")
+		)
+		(pin "14"
+			(uuid "8602e1ee-2e32-4957-b154-8aa9269b0f70")
+		)
+		(pin "13"
+			(uuid "d873f5e4-a87d-44ea-8121-79891f64c2cc")
+		)
+		(pin "15"
+			(uuid "916ee1b0-76e9-44e1-bcb8-172a5e634574")
+		)
+		(pin "16"
+			(uuid "719a586e-f580-4e93-a9be-a981139beaff")
+		)
+		(pin "3"
+			(uuid "eac0def7-67de-4148-9d22-a8a37a00af89")
+		)
+		(pin "4"
+			(uuid "37bbb9a7-7b71-41ba-b4f4-22d1ebdaa1f5")
+		)
+		(pin "10"
+			(uuid "aa9e8ebf-2b52-4011-b627-9b814b3a674d")
+		)
+		(pin "9"
+			(uuid "e38c1f08-570f-40ae-910a-2827eb554945")
+		)
+		(pin "8"
+			(uuid "dcc99663-0932-4558-b426-5b11a1388f83")
+		)
+		(pin "7"
+			(uuid "f8a105e3-18d5-4543-ae32-115c5e66782f")
+		)
+		(pin "12"
+			(uuid "3410522a-fdb9-4888-a61d-d02fbfdeabb5")
+		)
+		(pin "11"
+			(uuid "cd5f8094-5b18-4b4a-9cf0-588d595ee24a")
 		)
 		(pin "1"
-			(uuid "74d60e74-e47f-4aba-8623-b68a6362c192")
+			(uuid "ce2cd36f-db7f-4ba9-9bfd-4e90e04de40d")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R35")
-					(unit 1)
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 99.06 81.28 0)
+		(lib_id "power:+3.3V")
+		(at 132.08 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2030,9 +2272,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "17936c75-79d7-47ab-a0ab-252bf4f1686b")
-		(property "Reference" "J8"
-			(at 99.06 78.74 0)
+		(fields_autoplaced yes)
+		(uuid "0d38f074-f244-486d-87ce-4cc5bf753f2d")
+		(property "Reference" "#PWR06"
+			(at 132.08 107.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2041,19 +2285,18 @@
 				)
 			)
 		)
-		(property "Value" "PWM_4"
-			(at 100.584 86.36 0)
+		(property "Value" "+3.3V"
+			(at 132.08 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 81.28 0)
+			(at 132.08 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2307,265 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 81.28 0)
+			(at 132.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "407035e2-2d9a-4f70-8ca1-b4a42b5472c9")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ea21147-0c18-4c1a-8844-ac7abc7d20e6")
+		(property "Reference" "R68"
+			(at 209.042 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 199.898 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 204.47 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 204.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 204.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c1c6a6f-6786-45f1-a3a9-d1829b7b132d")
+		)
+		(pin "2"
+			(uuid "6419a235-476c-46a7-b74d-d7c1d03503ff")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 173.99 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "106d9764-74b6-4250-b4e2-add2347b4fe1")
+		(property "Reference" "R22"
+			(at 173.99 67.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 173.99 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "befd05fd-c3cd-4720-9c68-55885c8a33eb")
+		)
+		(pin "1"
+			(uuid "6f25e5db-1b1a-4b8f-9d15-d0765880f944")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 54.61 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17936c75-79d7-47ab-a0ab-252bf4f1686b")
+		(property "Reference" "J8"
+			(at 54.61 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWM_4"
+			(at 46.482 50.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +2576,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 81.28 0)
+			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2603,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 50.8 90)
+		(at 204.47 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2110,9 +2611,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "18df21a0-149f-424f-9406-fe9fcbf152ae")
-		(property "Reference" "R33"
-			(at 148.59 48.514 90)
+		(uuid "221aecd8-a50a-4572-9112-cf372f7d604c")
+		(property "Reference" "R65"
+			(at 208.534 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2121,8 +2622,8 @@
 				)
 			)
 		)
-		(property "Value" "470k"
-			(at 148.59 50.8 90)
+		(property "Value" "330"
+			(at 199.898 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2132,7 +2633,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 52.578 90)
+			(at 204.47 48.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 50.8 0)
+			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2154,7 +2655,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 50.8 0)
+			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2163,96 +2664,39 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" ""
+			(at 204.47 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 204.47 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81407e29-271b-40de-9c6b-aa4926a52120")
 		)
 		(pin "2"
-			(uuid "3dd47e9a-dde9-4f58-b33a-2c7c960d1e44")
-		)
-		(pin "1"
-			(uuid "a83b10a8-93f9-4c24-80c6-2ff02ce4fd23")
+			(uuid "230b4c81-d0e9-4fb6-99d9-96ec9b2ff7ac")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2126b89c-2a45-441b-9a7b-c233237193f7")
-		(property "Reference" "#PWR032"
-			(at 44.45 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 36.83 36.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2687a238-9aaf-4ca2-adbf-0e82e8302cd3")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR032")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -2260,7 +2704,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 67.31 90)
+		(at 71.12 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2270,7 +2714,7 @@
 		(dnp no)
 		(uuid "2dae2ed0-6762-4374-a2e5-197071c746bb")
 		(property "Reference" "R26"
-			(at 85.09 65.024 90)
+			(at 71.12 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2280,7 +2724,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 85.09 67.31 90)
+			(at 71.12 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2290,7 +2734,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 69.088 90)
+			(at 71.12 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,7 +2745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 67.31 0)
+			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2312,7 +2756,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 67.31 0)
+			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2783,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 81.28 90)
+		(at 71.12 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2349,7 +2793,7 @@
 		(dnp no)
 		(uuid "2dd03021-2d2d-49bc-962e-5bae34bd252f")
 		(property "Reference" "R27"
-			(at 85.09 78.994 90)
+			(at 71.12 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2359,7 +2803,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 85.09 81.28 90)
+			(at 71.12 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2369,7 +2813,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 83.058 90)
+			(at 71.12 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2380,7 +2824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 81.28 0)
+			(at 71.12 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,7 +2835,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 81.28 0)
+			(at 71.12 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2418,7 +2862,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 99.06 67.31 0)
+		(at 54.61 58.42 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2428,7 +2873,7 @@
 		(dnp no)
 		(uuid "2f04c011-630c-4c03-b5dd-34584a23b4de")
 		(property "Reference" "J7"
-			(at 99.06 64.77 0)
+			(at 54.61 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2438,7 +2883,7 @@
 			)
 		)
 		(property "Value" "PWM_3"
-			(at 100.584 72.39 0)
+			(at 46.228 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2449,7 +2894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 67.31 0)
+			(at 54.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 67.31 0)
+			(at 54.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2916,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 67.31 0)
+			(at 54.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2943,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 81.28 90)
+		(at 173.99 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2506,9 +2951,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3a8ff214-4a73-48ff-ba07-a6c9fcae364a")
-		(property "Reference" "R39"
-			(at 158.75 78.994 90)
+		(uuid "303e56de-898a-4d6c-afc2-28a52d8578ce")
+		(property "Reference" "R64"
+			(at 173.99 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2518,7 +2963,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 158.75 81.28 90)
+			(at 173.99 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2528,7 +2973,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 83.058 90)
+			(at 173.99 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 81.28 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2550,7 +2995,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 81.28 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,94 +3006,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1002c09c-b523-409e-ac04-0d64fcfa2ed5")
+			(uuid "60be854c-0c86-42c2-bd9f-5649becf1710")
 		)
 		(pin "1"
-			(uuid "a0d79b97-c9f3-4505-865c-1bb5c0947fea")
+			(uuid "30429e8a-71e4-4b68-b5f3-a93c9693cb8b")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c8b66b2-46a7-45db-a3f1-5662eb552afa")
-		(property "Reference" "#PWR034"
-			(at 44.45 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 36.83 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c2f11e9-1e5a-4d87-afd6-998cfb581012")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR034")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -2656,7 +3022,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 78.74 90)
+		(at 204.47 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2664,9 +3030,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "412c924c-b528-4d04-93f6-351f9ab1b4ba")
-		(property "Reference" "R23"
-			(at 46.99 76.454 90)
+		(uuid "3701e13d-1e06-4fad-833a-0edec41de7f7")
+		(property "Reference" "R67"
+			(at 209.042 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2676,7 +3042,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 46.99 78.74 90)
+			(at 199.898 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2686,7 +3052,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 80.518 90)
+			(at 204.47 66.548 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,7 +3063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 78.74 0)
+			(at 204.47 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 78.74 0)
+			(at 204.47 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,34 +3084,57 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "a64bb0dd-5fb7-4340-9796-89deceb56cae")
+		(property "Manufacturer" ""
+			(at 204.47 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 204.47 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "7e65f4ae-b603-41b9-8a77-dd7098eb388d")
+			(uuid "380470e0-65dc-494f-a061-01f5b362fa8a")
+		)
+		(pin "2"
+			(uuid "0f55495c-53ef-4a33-9693-3c2834569ee4")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R23")
+					(reference "R67")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 120.65 50.8 90)
-		(unit 1)
+		(lib_id "Isolator:LTV-847S")
+		(at 86.36 68.58 0)
+		(mirror y)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "45103fb2-0974-4f36-a3fb-e9c9c90ac006")
-		(property "Reference" "R29"
-			(at 120.65 48.514 90)
+		(uuid "468ac641-f80c-408e-8584-cf27b6e457fb")
+		(property "Reference" "U5"
+			(at 93.472 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2754,18 +3143,8 @@
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 120.65 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 52.578 90)
+		(property "Value" "LTV-847S"
+			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,8 +3154,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 120.65 50.8 0)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 86.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2786,8 +3165,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 120.65 50.8 0)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 101.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,35 +3176,8 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "88a264cd-8216-4f48-a038-abb2c0b18a5e")
-		)
-		(pin "1"
-			(uuid "30492f1a-74f7-4ae9-ad07-2847054d1d86")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52c70169-d5ba-4e07-a5a7-ad9897648107")
-		(property "Reference" "#PWR033"
-			(at 44.45 50.8 0)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2835,230 +3187,180 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 36.83 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e53538c2-b71d-4e4b-b6c2-d2399da5969f")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53146729-784d-4157-a3db-ad1e2d67fd3a")
-		(property "Reference" "R38"
-			(at 158.75 65.024 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 158.75 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 69.088 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b82a5dc9-6904-4f01-bfee-09ed8b4a5aae")
-		)
-		(pin "1"
-			(uuid "a0017bb3-100e-4df3-8baf-de090b27090b")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N36")
-		(at 134.62 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53b2749d-6c83-4432-a618-2fc6d411b934")
-		(property "Reference" "U11"
-			(at 134.62 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N36"
-			(at 134.62 72.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 129.54 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 134.62 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 134.62 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "5610d1a2-2082-4888-8b99-72ab7daecfe1")
-		)
-		(pin "1"
-			(uuid "90aec145-5f1d-4384-bd9c-32774e058e7c")
-		)
-		(pin "4"
-			(uuid "38c5df10-1804-4868-8855-a2c812139a0c")
-		)
-		(pin "2"
-			(uuid "8ba33383-bad7-4cc5-9a8b-b4134d861ee4")
+		(pin "16"
+			(uuid "a3973884-a065-4335-8133-940239bc560d")
 		)
 		(pin "3"
-			(uuid "f16f4755-e82a-4b2b-bf06-5a43b46cc68e")
+			(uuid "633bdb6e-0763-42b0-9608-325efabe33c7")
+		)
+		(pin "15"
+			(uuid "697648ac-383f-4368-9343-ea94be756c82")
+		)
+		(pin "2"
+			(uuid "2ad8e8c0-e92a-43e3-aaf0-937d8e097e0b")
+		)
+		(pin "1"
+			(uuid "e8017b8f-9aad-4eb2-b707-22e33ad4b6f6")
+		)
+		(pin "12"
+			(uuid "aded53c5-9b79-4dae-b4e9-cf1fb1fb322a")
+		)
+		(pin "11"
+			(uuid "2d85443f-82fd-47a7-9c7b-6d6e0ab53464")
 		)
 		(pin "6"
-			(uuid "b96d7972-15c9-4701-9344-e53694189001")
+			(uuid "2db3c856-9b95-4d7b-9654-3f9f98a30285")
+		)
+		(pin "5"
+			(uuid "d52532ea-8661-4a5d-b3b8-d3ffa917c398")
+		)
+		(pin "14"
+			(uuid "c14f9113-1c6a-45fd-97ad-d48f19a6d8e4")
+		)
+		(pin "13"
+			(uuid "2706cc68-097f-4ef1-a150-182f09aff2b5")
+		)
+		(pin "4"
+			(uuid "66e1a689-ceea-45ed-a37e-33077f16e916")
+		)
+		(pin "7"
+			(uuid "83341a88-4311-46c0-b59f-d46e6a7e1702")
+		)
+		(pin "8"
+			(uuid "14f1cfad-b164-4c3c-8d06-61d7d3b14e2f")
+		)
+		(pin "9"
+			(uuid "f5296402-0abc-427c-9564-1de7913fb12b")
+		)
+		(pin "10"
+			(uuid "8591c8eb-4f04-4187-8fa7-49dd16e6aee5")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U11")
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-847S")
+		(at 189.23 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49227ea4-f6a4-48f2-9765-793ee283487d")
+		(property "Reference" "U6"
+			(at 196.596 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-847S"
+			(at 189.484 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 189.23 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 204.47 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "d4906aa5-4858-4b9c-9891-90a2b040dbf2")
+		)
+		(pin "2"
+			(uuid "6ce4972f-2664-49f2-a980-b0e01d3d8130")
+		)
+		(pin "3"
+			(uuid "51122777-a2bb-47dd-b449-059528a8b5cf")
+		)
+		(pin "16"
+			(uuid "2d868e82-2ff4-491d-b94d-166a61891c2e")
+		)
+		(pin "4"
+			(uuid "59da5250-9f54-462e-a922-e04fa604921c")
+		)
+		(pin "13"
+			(uuid "7d31a193-ce8b-44f7-91ba-1c4ce9beeecc")
+		)
+		(pin "14"
+			(uuid "754d38aa-a99e-4c4d-92e0-e57237d86001")
+		)
+		(pin "5"
+			(uuid "20854469-5bea-4a26-8924-66e0aa734d96")
+		)
+		(pin "6"
+			(uuid "83be1705-c2a7-41fd-88d2-16e576185082")
+		)
+		(pin "11"
+			(uuid "2030f973-ff1d-440d-87f3-46b805782f07")
+		)
+		(pin "12"
+			(uuid "4f21e389-2890-451a-b4de-ef840b97f38c")
+		)
+		(pin "7"
+			(uuid "8dedbacb-b9b2-49d3-bbf3-534ff8d81f93")
+		)
+		(pin "8"
+			(uuid "a1274ee3-a1f5-4ce1-876b-1c237aa3ed5e")
+		)
+		(pin "9"
+			(uuid "de86838c-de20-4a81-b7f7-ecfb2506a3be")
+		)
+		(pin "10"
+			(uuid "1b0a3cd7-f8a3-453f-840b-8359a9ea860d")
+		)
+		(pin "1"
+			(uuid "96b2c334-f85d-4c53-8bbf-2d616daee889")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3368,187 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 53.34 90)
+		(at 101.6 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a44054a-24bc-444a-967c-5c25a265ff03")
+		(property "Reference" "R61"
+			(at 106.172 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 97.028 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 101.6 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34d9b8b4-8841-404b-8b3a-780807c418dd")
+		)
+		(pin "2"
+			(uuid "81df0006-cc78-4502-997e-82050f5514c0")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d8c1617-ebcf-439a-a939-813ee522a3c2")
+		(property "Reference" "R17"
+			(at 124.46 103.124 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b524f9ba-10e8-44c9-a58e-a7e1ca4059e8")
+		)
+		(pin "1"
+			(uuid "798503cb-f383-4e7d-8995-2685845c11f9")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3076,7 +3558,7 @@
 		(dnp no)
 		(uuid "597a27ae-5577-4c6e-885d-b95680cbc92c")
 		(property "Reference" "R21"
-			(at 85.09 51.054 90)
+			(at 71.12 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3086,7 +3568,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 85.09 53.34 90)
+			(at 71.12 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3096,7 +3578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 55.118 90)
+			(at 71.12 67.818 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 53.34 0)
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3600,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 53.34 0)
+			(at 71.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3145,7 +3627,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 36.83 90)
+		(at 101.6 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3153,9 +3635,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5d12136f-948d-403d-b75e-58654817365e")
-		(property "Reference" "R16"
-			(at 46.99 34.544 90)
+		(uuid "5edf249f-e25d-46cb-a261-b1fb6c521238")
+		(property "Reference" "R60"
+			(at 106.172 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3165,7 +3647,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 46.99 36.83 90)
+			(at 97.028 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3175,7 +3657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 38.608 90)
+			(at 101.6 58.928 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 36.83 0)
+			(at 101.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +3679,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 36.83 0)
+			(at 101.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,284 +3688,39 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 101.6 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0444a5c2-438d-41b6-89b6-344801d5d94c")
 		)
 		(pin "2"
-			(uuid "fb575200-56de-4ca1-8160-68c99bc7a2a1")
-		)
-		(pin "1"
-			(uuid "082ce84e-50c7-401a-9967-88369490c9e0")
+			(uuid "509b13df-08ce-4f56-868c-9bd57970f250")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 114.3 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5df92681-a431-492e-bfc8-03a584a60e9c")
-		(property "Reference" "#PWR039"
-			(at 118.11 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a3560ac-6e7a-48c9-90fa-6f38dc53fe7b")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N36")
-		(at 60.96 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f585d0f-fc71-488d-b78b-b6681c5182dd")
-		(property "Reference" "U8"
-			(at 60.96 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N36"
-			(at 60.96 86.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 55.88 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 60.96 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 60.96 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "96a8d51f-cda9-4c7f-941b-da2474aa0b31")
-		)
-		(pin "1"
-			(uuid "b2184645-d170-48b4-a4fc-ae256b7fd0c3")
-		)
-		(pin "4"
-			(uuid "ab6952ac-cb8e-4456-b8a9-de74861770a8")
-		)
-		(pin "2"
-			(uuid "47429da6-6078-4584-a838-a7c5d7b4fa64")
-		)
-		(pin "3"
-			(uuid "1c4481f5-7ab8-47aa-b015-05d1f6961668")
-		)
-		(pin "6"
-			(uuid "c0ac6013-8dea-4e7d-8728-a2ffa1f8ffac")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N36")
-		(at 134.62 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5fccffbb-2193-45b8-b014-2c0055dc57ac")
-		(property "Reference" "U9"
-			(at 134.62 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N36"
-			(at 134.62 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 129.54 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 134.62 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 134.62 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "e47fa398-f837-4f37-92b6-2571e69d5953")
-		)
-		(pin "1"
-			(uuid "2d9aac5f-e052-4bda-a8f8-5aea0e66bfd9")
-		)
-		(pin "4"
-			(uuid "cbe7e461-2310-43e6-abc9-ebad91837ef9")
-		)
-		(pin "2"
-			(uuid "e03f43c6-f40d-4053-a444-35d66bcb8211")
-		)
-		(pin "3"
-			(uuid "3ea3be9b-5a22-4272-8fea-ef6c9f7b1ae2")
-		)
-		(pin "6"
-			(uuid "e6c15d63-2cf3-4413-a25f-94d179a59c69")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U9")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -3491,7 +3728,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 39.37 90)
+		(at 71.12 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3501,7 +3738,7 @@
 		(dnp no)
 		(uuid "60ddb9ed-421a-4527-aa08-433e40efae6b")
 		(property "Reference" "R18"
-			(at 85.09 37.084 90)
+			(at 71.12 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3511,7 +3748,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 85.09 39.37 90)
+			(at 71.12 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3521,7 +3758,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 41.148 90)
+			(at 71.12 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,7 +3769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 39.37 0)
+			(at 71.12 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3780,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 39.37 0)
+			(at 71.12 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,8 +3806,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:4N36")
-		(at 134.62 53.34 0)
+		(lib_id "Device:R")
+		(at 101.6 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3578,9 +3815,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6a150f15-a7a9-40bd-b9fb-81a69e96bf5b")
-		(property "Reference" "U10"
-			(at 134.62 48.26 0)
+		(uuid "640b0613-5058-492c-8b33-aef372e617cc")
+		(property "Reference" "R62"
+			(at 106.172 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3589,8 +3826,8 @@
 				)
 			)
 		)
-		(property "Value" "4N36"
-			(at 134.62 58.674 0)
+		(property "Value" "330"
+			(at 97.028 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3599,103 +3836,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 129.54 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 134.62 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 134.62 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "464e2e75-4c8a-4807-975b-af4850d4e29b")
-		)
-		(pin "1"
-			(uuid "a8849362-aea5-4448-8d18-2b59f773d7f2")
-		)
-		(pin "4"
-			(uuid "edecdd8f-b295-4493-8f0e-aa2907d06b35")
-		)
-		(pin "2"
-			(uuid "f5786f11-f1de-4797-bae6-2e451922a40a")
-		)
-		(pin "3"
-			(uuid "0c75863e-1d80-49fa-92da-89486020f28d")
-		)
-		(pin "6"
-			(uuid "3e630c0f-ffd1-4166-bc89-2320ffe3fd3f")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 99.06 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a1de7c3-b819-4cf4-898b-9b35c514f570")
-		(property "Reference" "J6"
-			(at 99.06 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWM_2"
-			(at 100.584 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 53.34 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,7 +3848,110 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 53.34 0)
+			(at 101.6 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 101.6 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4f8f683-e1fc-4d30-9635-8bef43b2e508")
+		)
+		(pin "2"
+			(uuid "473fe4f1-95e9-4605-a096-d864e876659d")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 54.61 67.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a1de7c3-b819-4cf4-898b-9b35c514f570")
+		(property "Reference" "J6"
+			(at 54.61 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWM_2"
+			(at 46.482 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3717,7 +3962,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 53.34 0)
+			(at 54.61 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,18 +3988,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:4N36")
-		(at 60.96 67.31 0)
-		(unit 1)
+		(lib_id "Isolator:LTV-847S")
+		(at 189.23 76.2 0)
+		(mirror y)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "767ff1eb-11e9-43b8-990a-17da3c57c3a2")
-		(property "Reference" "U7"
-			(at 60.96 62.23 0)
+		(uuid "6badeb55-b76c-430a-8ec4-3b4729c1b046")
+		(property "Reference" "U6"
+			(at 196.342 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3763,43 +4009,8 @@
 				)
 			)
 		)
-		(property "Value" "4N36"
-			(at 60.96 72.644 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 55.88 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 60.96 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 60.96 67.31 0)
+		(property "Value" "LTV-847S"
+			(at 189.23 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,37 +4019,100 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 189.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 204.47 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 189.23 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "0bf8effd-6eb2-411a-b162-1c3f17f26c3e")
 		)
 		(pin "5"
-			(uuid "6f424efe-28d6-4f3a-a177-d4fa93772a94")
-		)
-		(pin "1"
-			(uuid "5bf1cc70-24df-4acf-87b4-03e707eceadc")
-		)
-		(pin "4"
-			(uuid "b29d0848-d87a-4ddb-8fcf-4ae39cf2dfd3")
-		)
-		(pin "2"
-			(uuid "d5608914-671a-4aee-8c77-97a1559a9994")
-		)
-		(pin "3"
-			(uuid "e8577e2c-d20f-4dbc-89d3-a10c5f2c1d11")
+			(uuid "8024852f-76cb-4719-842f-d7bec268a32e")
 		)
 		(pin "6"
-			(uuid "4b50136f-53fc-44e7-9345-44b31a4c54ac")
+			(uuid "ae60f096-642d-4b05-b17d-855a92570447")
+		)
+		(pin "11"
+			(uuid "2129f0c9-3caf-4ae0-a141-eb402bafbe71")
+		)
+		(pin "12"
+			(uuid "79ef8015-71a2-4d33-a621-572708517fef")
+		)
+		(pin "7"
+			(uuid "e24cc62f-bcaf-461c-986b-f6745556b233")
+		)
+		(pin "8"
+			(uuid "271b3882-9a58-4a74-8a1c-569291c01953")
+		)
+		(pin "9"
+			(uuid "7de23280-993b-412d-8c7e-ab337ec985e9")
+		)
+		(pin "10"
+			(uuid "2b465c40-fefa-4021-b39a-479fc7efb0da")
+		)
+		(pin "15"
+			(uuid "15e0ed96-07c5-4955-bfa9-433979e409c3")
+		)
+		(pin "16"
+			(uuid "e665c3a6-6df2-4fe3-9980-9aaae37757e9")
+		)
+		(pin "3"
+			(uuid "0e590668-74c1-466e-a4b9-ee411902a352")
+		)
+		(pin "4"
+			(uuid "2d64f640-c1bb-4778-9175-62a066c2ad3c")
+		)
+		(pin "1"
+			(uuid "ea9ccbc0-8536-4c40-8844-ff1586bf676c")
+		)
+		(pin "2"
+			(uuid "f817f055-1faf-401f-a985-ed950e24e519")
+		)
+		(pin "13"
+			(uuid "cd8a496e-04da-4881-83bb-27e1e032bb68")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U7")
-					(unit 1)
+					(reference "U6")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 172.72 53.34 0)
+		(lib_id "Device:R")
+		(at 204.47 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3846,9 +4120,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "788b6b84-2de9-4e13-a263-291f138934ca")
-		(property "Reference" "J10"
-			(at 172.72 50.8 0)
+		(uuid "6bb6a659-3de1-4b15-8159-e6377bcdee76")
+		(property "Reference" "R66"
+			(at 209.042 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3857,19 +4131,18 @@
 				)
 			)
 		)
-		(property "Value" "PWM_6"
-			(at 174.244 58.42 0)
+		(property "Value" "330"
+			(at 199.898 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 53.34 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 204.47 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3880,7 +4153,110 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 53.34 0)
+			(at 204.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 204.47 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 204.47 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda99fa5-0829-48bf-8f85-d20c5b264e41")
+		)
+		(pin "2"
+			(uuid "37351d68-90da-47d3-a99d-b7952e31ceb6")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 157.48 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "788b6b84-2de9-4e13-a263-291f138934ca")
+		(property "Reference" "J10"
+			(at 157.48 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWM_6"
+			(at 148.844 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3891,7 +4267,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 53.34 0)
+			(at 157.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3917,102 +4293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:4N36")
-		(at 60.96 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a4078d8-e905-4571-8aa1-854c4f5980a1")
-		(property "Reference" "U5"
-			(at 60.96 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N36"
-			(at 60.96 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 55.88 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 60.96 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 60.96 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "fbb341f5-d7f3-4879-8257-747e13e1264b")
-		)
-		(pin "1"
-			(uuid "86cca952-7371-493c-9c56-c961912d44dd")
-		)
-		(pin "4"
-			(uuid "c21bac02-abd1-4e24-bed7-20feb8a7618b")
-		)
-		(pin "2"
-			(uuid "f38c398b-66ab-433b-9c73-ff10d423bc49")
-		)
-		(pin "3"
-			(uuid "048533b5-8e40-4542-8eaa-f36a4e5024da")
-		)
-		(pin "6"
-			(uuid "98abf404-e9fa-4fc5-bb69-57eedae1e1f2")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 148.59 36.83 90)
+		(at 110.49 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4020,9 +4302,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7a483678-0cb5-494b-969e-ff152b31ba3a")
-		(property "Reference" "R32"
-			(at 148.59 34.544 90)
+		(uuid "9e14f949-73ab-4bc2-8d65-da1685612e64")
+		(property "Reference" "R16"
+			(at 115.316 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4031,589 +4313,18 @@
 				)
 			)
 		)
-		(property "Value" "470k"
-			(at 148.59 36.83 90)
+		(property "Value" "1k"
+			(at 114.3 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 38.608 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4008879e-588c-41e0-802d-b3252be7182a")
-		)
-		(pin "1"
-			(uuid "d132f64c-015e-4fac-9e34-76ac606032ab")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f9a09d1-82de-4736-a481-9126078e6e3f")
-		(property "Reference" "R20"
-			(at 74.93 48.514 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 74.93 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 52.578 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "12b912dd-3174-41f1-abc5-f3dac3848cea")
-		)
-		(pin "1"
-			(uuid "f78b00aa-90cc-428e-9be9-390a64a8e8e4")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N36")
-		(at 134.62 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ed3689f-8670-48b8-833a-0fd173e2a1e4")
-		(property "Reference" "U12"
-			(at 134.62 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4N36"
-			(at 134.62 86.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 134.62 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 134.62 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "71162bee-323f-4ae1-8251-1f167be8cd4e")
-		)
-		(pin "1"
-			(uuid "95761ae1-b07b-4be6-96dc-a74077509953")
-		)
-		(pin "4"
-			(uuid "41e07ba9-7786-4b3c-9b9f-c02f1098900c")
-		)
-		(pin "2"
-			(uuid "34a29da8-4330-4abf-9358-7846e566491d")
-		)
-		(pin "3"
-			(uuid "db9daf44-d6f6-4a8e-890a-73a676a839ce")
-		)
-		(pin "6"
-			(uuid "613c4c31-e624-4bb1-83ca-814d36eea279")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9344474c-cd3b-476f-a9f1-d95c5c24a7cc")
-		(property "Reference" "R34"
-			(at 148.59 62.484 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 148.59 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d294dbcf-ad04-44a7-a1ed-584c21e67b89")
-		)
-		(pin "1"
-			(uuid "17c645de-2695-4345-a387-8891c91b2967")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "969a5b20-743f-4f32-beb4-c4e942f75f3d")
-		(property "Reference" "R30"
-			(at 120.65 62.484 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 120.65 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a9bc541d-d7b3-4c6f-b79a-25afccdea3ff")
-		)
-		(pin "1"
-			(uuid "8f1d17ea-63d3-4573-b6b6-e91783ef77fc")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4692f27-8323-4f36-a675-2d2aaea4e38f")
-		(property "Reference" "R19"
-			(at 46.99 48.514 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 46.99 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 52.578 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "add45222-caae-47f6-957b-695ea887580f")
-		)
-		(pin "1"
-			(uuid "eb69d1c0-e420-4560-b836-0eccbba7b0e4")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a48b15ea-e113-41a3-b834-ee9be6a070d7")
-		(property "Reference" "R22"
-			(at 46.99 62.484 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 46.99 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4a3b3c70-c2a0-4640-8359-62691ef9d182")
-		)
-		(pin "1"
-			(uuid "2ffdc5e7-263c-4ee4-a444-5c440ee67192")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 114.3 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5276543-021e-4b40-826b-5e91a67c7d3d")
-		(property "Reference" "#PWR037"
-			(at 118.11 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 50.8 0)
+			(at 110.49 113.538 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4624,83 +4335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91acf0bf-3a2f-4a5d-80b2-09970298fd32")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a565bc4a-ecfa-4157-ae9e-176376f6fd05")
-		(property "Reference" "R37"
-			(at 158.75 51.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 158.75 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 55.118 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 53.34 0)
+			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,7 +4346,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 53.34 0)
+			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,15 +4357,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3fe10325-e7be-4c61-a1c0-46c1c073a377")
+			(uuid "711e6134-f49f-4812-bad3-3004cc73292e")
 		)
 		(pin "1"
-			(uuid "6c66f65f-5bd1-432f-b672-d29e074e504a")
+			(uuid "61366f50-99b5-48e6-9588-14e19c94032d")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R37")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4738,7 +4373,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 172.72 39.37 0)
+		(at 157.48 48.26 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4748,7 +4384,7 @@
 		(dnp no)
 		(uuid "a5e1c936-df4a-4d6c-8aca-491905b45796")
 		(property "Reference" "J9"
-			(at 172.72 36.83 0)
+			(at 157.48 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4758,7 +4394,7 @@
 			)
 		)
 		(property "Value" "PWM_5"
-			(at 174.244 44.45 0)
+			(at 149.098 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4769,7 +4405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 39.37 0)
+			(at 157.48 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +4416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 39.37 0)
+			(at 157.48 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,7 +4427,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 39.37 0)
+			(at 157.48 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,176 +4453,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 74.93 64.77 90)
-		(unit 1)
+		(lib_id "Isolator:LTV-847S")
+		(at 86.36 59.69 0)
+		(mirror y)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a65e6635-128c-412f-b822-94e334ed90f1")
-		(property "Reference" "R24"
-			(at 74.93 62.484 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 74.93 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c87587ff-33f1-4ffa-b517-b8d807beb484")
-		)
-		(pin "1"
-			(uuid "c5577aee-4082-4321-9e32-edad34d0a60c")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af2ccc0a-5a8a-4db6-ab75-4c8bcbb606fa")
-		(property "Reference" "R36"
-			(at 158.75 37.084 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 158.75 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 41.148 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3e970400-8051-4aef-92c3-659d7fcbc2e1")
-		)
-		(pin "1"
-			(uuid "95f56b57-3dfd-47ce-b96e-6decd3940a8e")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:4N36")
-		(at 60.96 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1fdddfe-7b96-4d49-8f19-0fd40f8b1dfd")
+		(uuid "b67670df-40b4-435f-b096-a93c238a1b38")
 		(property "Reference" "U6"
-			(at 60.96 48.26 0)
+			(at 93.472 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4995,43 +4474,8 @@
 				)
 			)
 		)
-		(property "Value" "4N36"
-			(at 60.96 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
-			(at 55.88 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81181/4n35.pdf"
-			(at 60.96 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Optocoupler, Phototransistor Output, with Base Connection, Vce 70V, CTR 100%, Viso 5000V, DIP6"
-			(at 60.96 53.34 0)
+		(property "Value" "LTV-847S"
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5041,36 +4485,100 @@
 				)
 			)
 		)
-		(pin "5"
-			(uuid "b64d65f1-6f9d-4443-b3f2-9372c2ccb3ec")
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 86.36 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "b8e183e0-2ab1-46a0-8c94-538034c823de")
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 101.6 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "2f634a75-7cce-44ca-8813-48a59c7b06ea")
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 86.36 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "574f01e6-9d86-4248-8b02-8960a3dd8103")
-		)
-		(pin "3"
-			(uuid "2d4f53d1-05e9-4344-866c-d271397b1df6")
+			(uuid "2a5a24b0-2f3e-4a5f-8e87-fbc0060a9c4f")
 		)
 		(pin "6"
-			(uuid "c51da605-c84c-4e17-836b-e134351192de")
+			(uuid "5f5dc499-6600-4b03-acaf-43ec105dd1d2")
+		)
+		(pin "5"
+			(uuid "91688383-b097-4b3b-9e25-0a99082226a6")
+		)
+		(pin "14"
+			(uuid "52e53d29-32c4-4113-82be-11fed4b1fca7")
+		)
+		(pin "13"
+			(uuid "f2dfc5e2-441e-470e-91f7-134879b055ae")
+		)
+		(pin "15"
+			(uuid "916ee1b0-76e9-44e1-bcb8-172a5e634574")
+		)
+		(pin "16"
+			(uuid "719a586e-f580-4e93-a9be-a981139beaff")
+		)
+		(pin "3"
+			(uuid "91e8f7b1-a8b1-466e-99d4-a81f4786d74c")
+		)
+		(pin "4"
+			(uuid "02f9645a-30e4-484e-9e84-655f96fd5db1")
+		)
+		(pin "10"
+			(uuid "aa9e8ebf-2b52-4011-b627-9b814b3a674d")
+		)
+		(pin "9"
+			(uuid "e38c1f08-570f-40ae-910a-2827eb554945")
+		)
+		(pin "8"
+			(uuid "dcc99663-0932-4558-b426-5b11a1388f83")
+		)
+		(pin "7"
+			(uuid "f8a105e3-18d5-4543-ae32-115c5e66782f")
+		)
+		(pin "12"
+			(uuid "3410522a-fdb9-4888-a61d-d02fbfdeabb5")
+		)
+		(pin "11"
+			(uuid "cd5f8094-5b18-4b4a-9cf0-588d595ee24a")
+		)
+		(pin "1"
+			(uuid "ce2cd36f-db7f-4ba9-9bfd-4e90e04de40d")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
 					(reference "U6")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 172.72 81.28 0)
+		(at 157.48 74.93 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5080,7 +4588,7 @@
 		(dnp no)
 		(uuid "c5953172-b331-4fd4-b98c-56dc3fa728a0")
 		(property "Reference" "J12"
-			(at 172.72 78.74 0)
+			(at 157.48 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5090,7 +4598,7 @@
 			)
 		)
 		(property "Value" "PWM_8"
-			(at 174.244 86.36 0)
+			(at 148.844 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5101,7 +4609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 81.28 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +4620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 81.28 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +4631,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 81.28 0)
+			(at 157.48 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,166 +4657,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 114.3 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3f234f9-b905-435e-8b01-cc225a19328a")
-		(property "Reference" "#PWR036"
-			(at 118.11 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 36.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d5059e4-6586-4f44-b600-678f2bb24bdf")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 114.3 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8b0abe1-1cf2-4f08-8cc4-7190d2d28778")
-		(property "Reference" "#PWR038"
-			(at 118.11 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca678e2c-03da-4d53-9d33-bd12142f0728")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 74.93 36.83 90)
+		(at 173.99 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5316,9 +4666,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "daf6e04e-1981-4a1c-8776-0f46d1e83d4d")
-		(property "Reference" "R17"
-			(at 74.93 34.544 90)
+		(uuid "c6c7d0a0-8862-4162-aef5-17b040b1ab5f")
+		(property "Reference" "R19"
+			(at 173.99 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5327,8 +4677,8 @@
 				)
 			)
 		)
-		(property "Value" "470k"
-			(at 74.93 36.83 90)
+		(property "Value" "100"
+			(at 173.99 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5338,7 +4688,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 38.608 90)
+			(at 173.99 75.438 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,7 +4699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 36.83 0)
+			(at 173.99 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5360,7 +4710,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 36.83 0)
+			(at 173.99 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5371,23 +4721,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "02fffcca-fd78-446c-9e73-6c54c297fa86")
+			(uuid "b8381735-5371-4bdf-9c9d-d2ae58a7803e")
 		)
 		(pin "1"
-			(uuid "8b3ab267-40f8-4a00-a657-c13da602f3f2")
+			(uuid "acbc8e62-3c6f-4f3f-be39-a06e5b298f9b")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 78.74 90)
+		(lib_id "Device:R")
+		(at 173.99 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5395,11 +4745,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e341f701-8a99-48bc-95b2-2ed215f092b7")
-		(property "Reference" "#PWR035"
-			(at 44.45 78.74 0)
-			(hide yes)
+		(uuid "d8cda7b5-96c8-448a-bf38-fceb87b07495")
+		(property "Reference" "R63"
+			(at 173.99 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5408,19 +4756,18 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 36.83 78.7399 90)
+		(property "Value" "100"
+			(at 173.99 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 48.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +4778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 78.74 0)
+			(at 173.99 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,8 +4788,237 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 78.74 0)
+		(property "Description" "Resistor"
+			(at 173.99 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0beb263a-c4ed-42da-8267-5d29b92ee6d8")
+		)
+		(pin "1"
+			(uuid "cf5a44d9-1e12-4388-adc6-569a98cb60fc")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-847S")
+		(at 86.36 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da739c0a-cc68-4dda-8bc9-c73e6f053e48")
+		(property "Reference" "U5"
+			(at 93.726 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-847S"
+			(at 86.36 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 86.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "0db3c010-18db-4ac6-8bbc-dd6fc761a789")
+		)
+		(pin "2"
+			(uuid "bf37d479-0691-436a-82f6-90f9de896fd6")
+		)
+		(pin "3"
+			(uuid "51122777-a2bb-47dd-b449-059528a8b5cf")
+		)
+		(pin "16"
+			(uuid "cb65128b-291e-46e8-b27f-4f8ad8df81c9")
+		)
+		(pin "4"
+			(uuid "59da5250-9f54-462e-a922-e04fa604921c")
+		)
+		(pin "13"
+			(uuid "7d31a193-ce8b-44f7-91ba-1c4ce9beeecc")
+		)
+		(pin "14"
+			(uuid "754d38aa-a99e-4c4d-92e0-e57237d86001")
+		)
+		(pin "5"
+			(uuid "20854469-5bea-4a26-8924-66e0aa734d96")
+		)
+		(pin "6"
+			(uuid "83be1705-c2a7-41fd-88d2-16e576185082")
+		)
+		(pin "11"
+			(uuid "2030f973-ff1d-440d-87f3-46b805782f07")
+		)
+		(pin "12"
+			(uuid "4f21e389-2890-451a-b4de-ef840b97f38c")
+		)
+		(pin "7"
+			(uuid "8dedbacb-b9b2-49d3-bbf3-534ff8d81f93")
+		)
+		(pin "8"
+			(uuid "a1274ee3-a1f5-4ce1-876b-1c237aa3ed5e")
+		)
+		(pin "9"
+			(uuid "de86838c-de20-4a81-b7f7-ecfb2506a3be")
+		)
+		(pin "10"
+			(uuid "1b0a3cd7-f8a3-453f-840b-8359a9ea860d")
+		)
+		(pin "1"
+			(uuid "08850ccc-2706-4d44-8116-d791f81a8900")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 129.54 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de6add93-bfe5-4b0e-8734-933904fbe30d")
+		(property "Reference" "Q7"
+			(at 134.62 113.0301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 134.62 110.4901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 134.62 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 129.54 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 129.54 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 129.54 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 129.54 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,20 +5029,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "891eeba7-9eea-4f56-a8cb-af3e1e6115dc")
+			(uuid "b7a0a971-c158-423b-bba3-9609312d97f4")
+		)
+		(pin "3"
+			(uuid "bcd578f6-dedd-4221-bd59-2c5d5dec633b")
+		)
+		(pin "2"
+			(uuid "c9799e30-caef-4322-86dd-701aa95cd879")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "#PWR035")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "Isolator:LTV-847S")
+		(at 86.36 77.47 0)
+		(mirror y)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e28030b3-356d-4418-bda0-2b02d9164887")
+		(property "Reference" "U5"
+			(at 93.472 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-847S"
+			(at 86.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 86.36 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 86.36 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "0bf8effd-6eb2-411a-b162-1c3f17f26c3e")
+		)
+		(pin "5"
+			(uuid "8024852f-76cb-4719-842f-d7bec268a32e")
+		)
+		(pin "6"
+			(uuid "ae60f096-642d-4b05-b17d-855a92570447")
+		)
+		(pin "11"
+			(uuid "2129f0c9-3caf-4ae0-a141-eb402bafbe71")
+		)
+		(pin "12"
+			(uuid "79ef8015-71a2-4d33-a621-572708517fef")
+		)
+		(pin "7"
+			(uuid "5a1954ed-116a-4b93-9cc3-a76397a8fd83")
+		)
+		(pin "8"
+			(uuid "81124787-6817-40ab-9280-a0e0d3854e89")
+		)
+		(pin "9"
+			(uuid "5c3579ac-bf2b-43b3-acd6-99965f1896c9")
+		)
+		(pin "10"
+			(uuid "76859d8c-90fc-4e0d-b206-37d8c64bb796")
+		)
+		(pin "15"
+			(uuid "15e0ed96-07c5-4955-bfa9-433979e409c3")
+		)
+		(pin "16"
+			(uuid "e665c3a6-6df2-4fe3-9980-9aaae37757e9")
+		)
+		(pin "3"
+			(uuid "0e590668-74c1-466e-a4b9-ee411902a352")
+		)
+		(pin "4"
+			(uuid "2d64f640-c1bb-4778-9175-62a066c2ad3c")
+		)
+		(pin "1"
+			(uuid "ea9ccbc0-8536-4c40-8844-ff1586bf676c")
+		)
+		(pin "2"
+			(uuid "f817f055-1faf-401f-a985-ed950e24e519")
+		)
+		(pin "13"
+			(uuid "cd8a496e-04da-4881-83bb-27e1e032bb68")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 120.65 36.83 90)
+		(at 101.6 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5474,9 +5179,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e890d968-c2ff-495f-b002-38f1bb73862b")
-		(property "Reference" "R28"
-			(at 120.65 34.544 90)
+		(uuid "f358eea6-8a28-4b38-9bfe-d24309670ee8")
+		(property "Reference" "R59"
+			(at 105.664 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5486,7 +5191,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 120.65 36.83 90)
+			(at 97.028 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5496,7 +5201,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 38.608 90)
+			(at 101.6 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5507,7 +5212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 36.83 0)
+			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,7 +5223,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 36.83 0)
+			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,174 +5233,38 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "97ed3cab-57c8-4782-8c5a-bc338a315ced")
+		(property "Manufacturer" ""
+			(at 101.6 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer pn" ""
+			(at 101.6 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "5a7f7a1b-aa7b-4b62-ba9f-6e20a5c61488")
+			(uuid "b720b7ad-d3b0-42e8-af5f-aae8f71ee91e")
+		)
+		(pin "2"
+			(uuid "fcfd4d03-9b93-4cf4-88c0-24a83aed892f")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
 				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f85efc62-0bb9-459b-9501-fbcbc589f8b7")
-		(property "Reference" "R25"
-			(at 74.93 76.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470k"
-			(at 74.93 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 80.518 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "40dce85b-151b-41e1-af87-c0c93b097a8f")
-		)
-		(pin "1"
-			(uuid "2a2b04d0-9328-4c44-9d12-8b7683dfb407")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f925413e-3c0b-47c8-9b28-07ca8d0f25e4")
-		(property "Reference" "R31"
-			(at 120.65 76.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 120.65 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 80.518 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "05f7ebda-a082-43ed-9d2c-89dd8f3ffc14")
-		)
-		(pin "1"
-			(uuid "b1cabbb6-8a1b-4dfa-8b50-b7963382a3f6")
-		)
-		(instances
-			(project "nereo_fc2.0_pcb"
-				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
-					(reference "R31")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -5703,7 +5272,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 172.72 67.31 0)
+		(at 157.48 66.04 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5713,7 +5283,7 @@
 		(dnp no)
 		(uuid "fae608f8-27a1-4b2f-9ae9-900996977e62")
 		(property "Reference" "J11"
-			(at 172.72 64.77 0)
+			(at 157.48 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5723,7 +5293,7 @@
 			)
 		)
 		(property "Value" "PWM_7"
-			(at 174.244 72.39 0)
+			(at 149.098 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5734,7 +5304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 67.31 0)
+			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 67.31 0)
+			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,7 +5326,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 67.31 0)
+			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,8 +5352,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:LTV-847S")
+		(at 189.23 67.31 0)
+		(mirror y)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fce4e48c-4ef3-4fa1-906f-86d5360377a2")
+		(property "Reference" "U6"
+			(at 196.342 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-847S"
+			(at 189.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+			(at 189.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 204.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "a3973884-a065-4335-8133-940239bc560d")
+		)
+		(pin "3"
+			(uuid "633bdb6e-0763-42b0-9608-325efabe33c7")
+		)
+		(pin "15"
+			(uuid "697648ac-383f-4368-9343-ea94be756c82")
+		)
+		(pin "2"
+			(uuid "2ad8e8c0-e92a-43e3-aaf0-937d8e097e0b")
+		)
+		(pin "1"
+			(uuid "e8017b8f-9aad-4eb2-b707-22e33ad4b6f6")
+		)
+		(pin "12"
+			(uuid "ba6de29a-7c37-4796-a023-1b4a1f7bc4eb")
+		)
+		(pin "11"
+			(uuid "da91ffff-8d55-4d70-97a9-d3c02e77f35e")
+		)
+		(pin "6"
+			(uuid "0470f9ca-73e8-47fe-bdca-8eee5c9fe23b")
+		)
+		(pin "5"
+			(uuid "ef8b4953-f66b-4eab-85c9-02cd4705def3")
+		)
+		(pin "14"
+			(uuid "c14f9113-1c6a-45fd-97ad-d48f19a6d8e4")
+		)
+		(pin "13"
+			(uuid "2706cc68-097f-4ef1-a150-182f09aff2b5")
+		)
+		(pin "4"
+			(uuid "66e1a689-ceea-45ed-a37e-33077f16e916")
+		)
+		(pin "7"
+			(uuid "83341a88-4311-46c0-b59f-d46e6a7e1702")
+		)
+		(pin "8"
+			(uuid "14f1cfad-b164-4c3c-8d06-61d7d3b14e2f")
+		)
+		(pin "9"
+			(uuid "f5296402-0abc-427c-9564-1de7913fb12b")
+		)
+		(pin "10"
+			(uuid "8591c8eb-4f04-4187-8fa7-49dd16e6aee5")
+		)
+		(instances
+			(project "nereo_fc2.0_pcb"
+				(path "/79d04962-2b38-4bf3-a32c-f156d229de57/7178d69a-df26-430a-b78a-a325c6e283cb"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 99.06 39.37 0)
+		(at 54.61 76.2 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5793,7 +5487,7 @@
 		(dnp no)
 		(uuid "fd59994a-1c6a-4f48-995f-a4ad9bd3e621")
 		(property "Reference" "J5"
-			(at 99.06 36.83 0)
+			(at 54.61 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5803,7 +5497,7 @@
 			)
 		)
 		(property "Value" "PWM_1"
-			(at 100.584 44.45 0)
+			(at 46.482 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5814,7 +5508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 39.37 0)
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5825,7 +5519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 39.37 0)
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5836,7 +5530,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 39.37 0)
+			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
