@@ -2141,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 189.23 58.42 0)
+		(at 86.36 59.69 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -2152,7 +2152,7 @@
 		(dnp no)
 		(uuid "0c4481bf-4ab2-4cde-b3fd-f9eeaef7475f")
 		(property "Reference" "U5"
-			(at 196.342 58.42 0)
+			(at 93.472 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2162,7 +2162,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 189.23 52.07 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,7 +2173,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 189.23 66.04 0)
+			(at 86.36 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +2184,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 204.47 46.99 0)
+			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 189.23 58.42 0)
+			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4454,7 +4454,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 86.36 59.69 0)
+		(at 189.23 58.42 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -4465,7 +4465,7 @@
 		(dnp no)
 		(uuid "b67670df-40b4-435f-b096-a93c238a1b38")
 		(property "Reference" "U6"
-			(at 93.472 59.69 0)
+			(at 196.342 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4475,7 +4475,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 86.36 53.34 0)
+			(at 189.23 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 86.36 67.31 0)
+			(at 189.23 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4497,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 101.6 48.26 0)
+			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4508,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 86.36 59.69 0)
+			(at 189.23 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,13 +4519,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a5a24b0-2f3e-4a5f-8e87-fbc0060a9c4f")
+			(uuid "2a5a24b0-2f3e-4a5f-8e87-fbc0060a9c50")
 		)
 		(pin "6"
-			(uuid "5f5dc499-6600-4b03-acaf-43ec105dd1d2")
+			(uuid "5f5dc499-6600-4b03-acaf-43ec105dd1d3")
 		)
 		(pin "5"
-			(uuid "91688383-b097-4b3b-9e25-0a99082226a6")
+			(uuid "91688383-b097-4b3b-9e25-0a99082226a7")
 		)
 		(pin "14"
 			(uuid "52e53d29-32c4-4113-82be-11fed4b1fca7")
@@ -4534,10 +4534,10 @@
 			(uuid "f2dfc5e2-441e-470e-91f7-134879b055ae")
 		)
 		(pin "15"
-			(uuid "916ee1b0-76e9-44e1-bcb8-172a5e634574")
+			(uuid "916ee1b0-76e9-44e1-bcb8-172a5e634575")
 		)
 		(pin "16"
-			(uuid "719a586e-f580-4e93-a9be-a981139beaff")
+			(uuid "719a586e-f580-4e93-a9be-a981139beb00")
 		)
 		(pin "3"
 			(uuid "91e8f7b1-a8b1-466e-99d4-a81f4786d74c")
@@ -4546,25 +4546,25 @@
 			(uuid "02f9645a-30e4-484e-9e84-655f96fd5db1")
 		)
 		(pin "10"
-			(uuid "aa9e8ebf-2b52-4011-b627-9b814b3a674d")
+			(uuid "aa9e8ebf-2b52-4011-b627-9b814b3a674e")
 		)
 		(pin "9"
-			(uuid "e38c1f08-570f-40ae-910a-2827eb554945")
+			(uuid "e38c1f08-570f-40ae-910a-2827eb554946")
 		)
 		(pin "8"
-			(uuid "dcc99663-0932-4558-b426-5b11a1388f83")
+			(uuid "dcc99663-0932-4558-b426-5b11a1388f84")
 		)
 		(pin "7"
-			(uuid "f8a105e3-18d5-4543-ae32-115c5e66782f")
+			(uuid "f8a105e3-18d5-4543-ae32-115c5e667830")
 		)
 		(pin "12"
-			(uuid "3410522a-fdb9-4888-a61d-d02fbfdeabb5")
+			(uuid "3410522a-fdb9-4888-a61d-d02fbfdeabb6")
 		)
 		(pin "11"
-			(uuid "cd5f8094-5b18-4b4a-9cf0-588d595ee24a")
+			(uuid "cd5f8094-5b18-4b4a-9cf0-588d595ee24b")
 		)
 		(pin "1"
-			(uuid "ce2cd36f-db7f-4ba9-9bfd-4e90e04de40d")
+			(uuid "ce2cd36f-db7f-4ba9-9bfd-4e90e04de40e")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
@@ -4886,43 +4886,43 @@
 			(uuid "bf37d479-0691-436a-82f6-90f9de896fd6")
 		)
 		(pin "3"
-			(uuid "51122777-a2bb-47dd-b449-059528a8b5cf")
+			(uuid "51122777-a2bb-47dd-b449-059528a8b5d0")
 		)
 		(pin "16"
 			(uuid "cb65128b-291e-46e8-b27f-4f8ad8df81c9")
 		)
 		(pin "4"
-			(uuid "59da5250-9f54-462e-a922-e04fa604921c")
+			(uuid "59da5250-9f54-462e-a922-e04fa604921d")
 		)
 		(pin "13"
-			(uuid "7d31a193-ce8b-44f7-91ba-1c4ce9beeecc")
+			(uuid "7d31a193-ce8b-44f7-91ba-1c4ce9beeecd")
 		)
 		(pin "14"
-			(uuid "754d38aa-a99e-4c4d-92e0-e57237d86001")
+			(uuid "754d38aa-a99e-4c4d-92e0-e57237d86002")
 		)
 		(pin "5"
-			(uuid "20854469-5bea-4a26-8924-66e0aa734d96")
+			(uuid "20854469-5bea-4a26-8924-66e0aa734d97")
 		)
 		(pin "6"
-			(uuid "83be1705-c2a7-41fd-88d2-16e576185082")
+			(uuid "83be1705-c2a7-41fd-88d2-16e576185083")
 		)
 		(pin "11"
-			(uuid "2030f973-ff1d-440d-87f3-46b805782f07")
+			(uuid "2030f973-ff1d-440d-87f3-46b805782f08")
 		)
 		(pin "12"
-			(uuid "4f21e389-2890-451a-b4de-ef840b97f38c")
+			(uuid "4f21e389-2890-451a-b4de-ef840b97f38d")
 		)
 		(pin "7"
-			(uuid "8dedbacb-b9b2-49d3-bbf3-534ff8d81f93")
+			(uuid "8dedbacb-b9b2-49d3-bbf3-534ff8d81f94")
 		)
 		(pin "8"
-			(uuid "a1274ee3-a1f5-4ce1-876b-1c237aa3ed5e")
+			(uuid "a1274ee3-a1f5-4ce1-876b-1c237aa3ed5f")
 		)
 		(pin "9"
-			(uuid "de86838c-de20-4a81-b7f7-ecfb2506a3be")
+			(uuid "de86838c-de20-4a81-b7f7-ecfb2506a3bf")
 		)
 		(pin "10"
-			(uuid "1b0a3cd7-f8a3-453f-840b-8359a9ea860d")
+			(uuid "1b0a3cd7-f8a3-453f-840b-8359a9ea860e")
 		)
 		(pin "1"
 			(uuid "08850ccc-2706-4d44-8116-d791f81a8900")
@@ -5113,19 +5113,19 @@
 			)
 		)
 		(pin "14"
-			(uuid "0bf8effd-6eb2-411a-b162-1c3f17f26c3e")
+			(uuid "0bf8effd-6eb2-411a-b162-1c3f17f26c3f")
 		)
 		(pin "5"
-			(uuid "8024852f-76cb-4719-842f-d7bec268a32e")
+			(uuid "8024852f-76cb-4719-842f-d7bec268a32f")
 		)
 		(pin "6"
-			(uuid "ae60f096-642d-4b05-b17d-855a92570447")
+			(uuid "ae60f096-642d-4b05-b17d-855a92570448")
 		)
 		(pin "11"
-			(uuid "2129f0c9-3caf-4ae0-a141-eb402bafbe71")
+			(uuid "2129f0c9-3caf-4ae0-a141-eb402bafbe72")
 		)
 		(pin "12"
-			(uuid "79ef8015-71a2-4d33-a621-572708517fef")
+			(uuid "79ef8015-71a2-4d33-a621-572708517ff0")
 		)
 		(pin "7"
 			(uuid "5a1954ed-116a-4b93-9cc3-a76397a8fd83")
@@ -5140,25 +5140,25 @@
 			(uuid "76859d8c-90fc-4e0d-b206-37d8c64bb796")
 		)
 		(pin "15"
-			(uuid "15e0ed96-07c5-4955-bfa9-433979e409c3")
+			(uuid "15e0ed96-07c5-4955-bfa9-433979e409c4")
 		)
 		(pin "16"
-			(uuid "e665c3a6-6df2-4fe3-9980-9aaae37757e9")
+			(uuid "e665c3a6-6df2-4fe3-9980-9aaae37757ea")
 		)
 		(pin "3"
-			(uuid "0e590668-74c1-466e-a4b9-ee411902a352")
+			(uuid "0e590668-74c1-466e-a4b9-ee411902a353")
 		)
 		(pin "4"
-			(uuid "2d64f640-c1bb-4778-9175-62a066c2ad3c")
+			(uuid "2d64f640-c1bb-4778-9175-62a066c2ad3d")
 		)
 		(pin "1"
-			(uuid "ea9ccbc0-8536-4c40-8844-ff1586bf676c")
+			(uuid "ea9ccbc0-8536-4c40-8844-ff1586bf676d")
 		)
 		(pin "2"
-			(uuid "f817f055-1faf-401f-a985-ed950e24e519")
+			(uuid "f817f055-1faf-401f-a985-ed950e24e51a")
 		)
 		(pin "13"
-			(uuid "cd8a496e-04da-4881-83bb-27e1e032bb68")
+			(uuid "cd8a496e-04da-4881-83bb-27e1e032bb69")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"
@@ -5418,19 +5418,19 @@
 			)
 		)
 		(pin "16"
-			(uuid "a3973884-a065-4335-8133-940239bc560d")
+			(uuid "a3973884-a065-4335-8133-940239bc560e")
 		)
 		(pin "3"
-			(uuid "633bdb6e-0763-42b0-9608-325efabe33c7")
+			(uuid "633bdb6e-0763-42b0-9608-325efabe33c8")
 		)
 		(pin "15"
-			(uuid "697648ac-383f-4368-9343-ea94be756c82")
+			(uuid "697648ac-383f-4368-9343-ea94be756c83")
 		)
 		(pin "2"
-			(uuid "2ad8e8c0-e92a-43e3-aaf0-937d8e097e0b")
+			(uuid "2ad8e8c0-e92a-43e3-aaf0-937d8e097e0c")
 		)
 		(pin "1"
-			(uuid "e8017b8f-9aad-4eb2-b707-22e33ad4b6f6")
+			(uuid "e8017b8f-9aad-4eb2-b707-22e33ad4b6f7")
 		)
 		(pin "12"
 			(uuid "ba6de29a-7c37-4796-a023-1b4a1f7bc4eb")
@@ -5445,25 +5445,25 @@
 			(uuid "ef8b4953-f66b-4eab-85c9-02cd4705def3")
 		)
 		(pin "14"
-			(uuid "c14f9113-1c6a-45fd-97ad-d48f19a6d8e4")
+			(uuid "c14f9113-1c6a-45fd-97ad-d48f19a6d8e5")
 		)
 		(pin "13"
-			(uuid "2706cc68-097f-4ef1-a150-182f09aff2b5")
+			(uuid "2706cc68-097f-4ef1-a150-182f09aff2b6")
 		)
 		(pin "4"
-			(uuid "66e1a689-ceea-45ed-a37e-33077f16e916")
+			(uuid "66e1a689-ceea-45ed-a37e-33077f16e917")
 		)
 		(pin "7"
-			(uuid "83341a88-4311-46c0-b59f-d46e6a7e1702")
+			(uuid "83341a88-4311-46c0-b59f-d46e6a7e1703")
 		)
 		(pin "8"
-			(uuid "14f1cfad-b164-4c3c-8d06-61d7d3b14e2f")
+			(uuid "14f1cfad-b164-4c3c-8d06-61d7d3b14e30")
 		)
 		(pin "9"
-			(uuid "f5296402-0abc-427c-9564-1de7913fb12b")
+			(uuid "f5296402-0abc-427c-9564-1de7913fb12c")
 		)
 		(pin "10"
-			(uuid "8591c8eb-4f04-4187-8fa7-49dd16e6aee5")
+			(uuid "8591c8eb-4f04-4187-8fa7-49dd16e6aee6")
 		)
 		(instances
 			(project "nereo_fc2.0_pcb"

@@ -5368,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Value" "6A"
+		(property "Value" "10A"
 			(at 205.74 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
