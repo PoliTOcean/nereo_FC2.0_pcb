@@ -5474,6 +5474,10 @@
 		(uuid "fcfcaa36-ffe6-478a-97b7-99601f0e5c12")
 	)
 	(no_connect
+		(at 71.12 50.8)
+		(uuid "02d362e9-4ded-4bd9-9036-bf9425eb7da7")
+	)
+	(no_connect
 		(at 167.64 50.8)
 		(uuid "06e3f052-b34e-4b16-928b-c76157dbaa4c")
 	)
@@ -5492,10 +5496,6 @@
 	(no_connect
 		(at 139.7 50.8)
 		(uuid "3065c61a-0398-45ae-8de9-5f767c57c211")
-	)
-	(no_connect
-		(at 152.4 50.8)
-		(uuid "31be49f0-6179-4ecb-9ab8-18453e40dc5c")
 	)
 	(no_connect
 		(at 116.84 50.8)
@@ -5542,6 +5542,10 @@
 		(uuid "77eb9b64-565d-4008-bd31-453442a423e9")
 	)
 	(no_connect
+		(at 68.58 50.8)
+		(uuid "7df18fbf-0024-4762-a0de-c2db710e40fe")
+	)
+	(no_connect
 		(at 99.06 116.84)
 		(uuid "83d6cd7c-75c9-4d8e-807d-22bfc26a89e6")
 	)
@@ -5556,10 +5560,6 @@
 	(no_connect
 		(at 114.3 50.8)
 		(uuid "8f7a0d09-4978-4e0a-af90-9647a6281ad5")
-	)
-	(no_connect
-		(at 149.86 50.8)
-		(uuid "9036bea3-2d6c-4a8a-b86c-8d14bef857ea")
 	)
 	(no_connect
 		(at 127 50.8)
@@ -7981,6 +7981,17 @@
 		)
 		(uuid "33b1f8be-60bc-497b-8563-af8c76e66caf")
 	)
+	(hierarchical_label "TIM3_CH1"
+		(shape output)
+		(at 149.86 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "494cf56d-1a12-47e0-9f13-2e2a01309151")
+	)
 	(hierarchical_label "EXTI6"
 		(shape input)
 		(at 137.16 124.46 270)
@@ -8047,6 +8058,17 @@
 		)
 		(uuid "59be7be3-f7d3-403c-ba44-9eab4204c606")
 	)
+	(hierarchical_label "TIM3_CH2"
+		(shape output)
+		(at 152.4 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c69e8cd-6a95-458c-bb31-b981b32f5521")
+	)
 	(hierarchical_label "EXTI7"
 		(shape input)
 		(at 139.7 124.46 270)
@@ -8057,17 +8079,6 @@
 			(justify right)
 		)
 		(uuid "6233bdcd-52b3-4d06-b428-5b4d1f2db084")
-	)
-	(hierarchical_label "TIM3_CH2"
-		(shape output)
-		(at 71.12 50.8 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c9f27a3-d980-42de-be29-d8928e1a2017")
 	)
 	(hierarchical_label "TIM1_CH4"
 		(shape output)
@@ -8189,17 +8200,6 @@
 			(justify left)
 		)
 		(uuid "ee3b0a2b-2774-40fc-9d33-68f100a7d140")
-	)
-	(hierarchical_label "TIM3_CH1"
-		(shape output)
-		(at 68.58 50.8 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef0485a9-9c8c-4d05-b5ca-7b183fe543e8")
 	)
 	(hierarchical_label "USART1_CTS"
 		(shape bidirectional)
@@ -8404,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 38.1 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -8642,7 +8642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.41 137.4648 0)
 			(hide yes)
 			(show_name no)
@@ -8723,7 +8723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.5252 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10134,7 +10134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10794,7 +10794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 47.2948 0)
 			(hide yes)
 			(show_name no)
@@ -12940,7 +12940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 105.41 147.6248 0)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 58.7248 0)
 			(hide yes)
 			(show_name no)

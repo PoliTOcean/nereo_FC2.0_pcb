@@ -12,4 +12,5 @@
 	(lib (name "B2P-VH") (type "KiCad") (uri "${KIPRJMOD}/lib/local/B2P-VH/B2P-VH.kicad_sym") (options "") (descr ""))
 	(lib (name "B8B-PH-K-S") (type "KiCad") (uri "${KIPRJMOD}/lib/local/B8B-JST/B8B-PH-K-S.kicad_sym") (options "") (descr ""))
 	(lib (name "SMBJ18A") (type "KiCad") (uri "${KIPRJMOD}/lib/local/SMBJ18A/SMBJ18A.kicad_sym") (options "") (descr ""))
+	(lib (name "BM04B-GHS-TBT") (type "KiCad") (uri "${KIPRJMOD}/lib/local/BM04B-GHS-TBT/BM04B-GHS-TBT.kicad_sym") (options "") (descr ""))
 )

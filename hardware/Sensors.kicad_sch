@@ -5220,7 +5220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON_03AGRTR_STM"
+		(property "Footprint" "LSM303AGRTR:SON_03AGRTR_STM"
 			(at 101.346 153.162 0)
 			(hide yes)
 			(show_name no)
@@ -6131,7 +6131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.0952 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6381,7 +6381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.0952 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9110,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON_03AGRTR_STM"
+		(property "Footprint" "LSM303AGRTR:SON_03AGRTR_STM"
 			(at 100.076 111.252 0)
 			(hide yes)
 			(show_name no)
@@ -9608,7 +9608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_STM"
+		(property "Footprint" "LSM6DSV16XTR:LGA-14L_STM"
 			(at 67.31 45.72 0)
 			(hide yes)
 			(show_name no)
