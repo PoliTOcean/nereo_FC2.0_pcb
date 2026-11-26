@@ -7,4 +7,5 @@
 	(lib (name "B8B-JST") (type "KiCad") (uri "${KIPRJMOD}/lib/local/B8B-JST/footprints.pretty") (options "") (descr ""))
 	(lib (name "BM04B-GHS-TBT") (type "KiCad") (uri "${KIPRJMOD}/lib/local/BM04B-GHS-TBT/footprints.pretty") (options "") (descr ""))
 	(lib (name "SMBJ18A") (type "KiCad") (uri "${KIPRJMOD}/lib/local/SMBJ18A/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/lib/local/B02BZESK1DTLFSNN/footprints.pretty") (options "") (descr ""))
 )

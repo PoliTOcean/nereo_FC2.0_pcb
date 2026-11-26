@@ -645,6 +645,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 119.38) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71e96cb-f339-4c23-81a4-5e2b32ec0184")
+	)
+	(wire
+		(pts
 			(xy 137.16 119.38) (xy 137.16 123.19)
 		)
 		(stroke
@@ -794,7 +804,7 @@
 		(uuid "fd77c1c0-4638-4974-9644-4e49f67c27fd")
 	)
 	(label "E2-XL1"
-		(at 168.91 81.28 180)
+		(at 168.91 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -893,17 +903,6 @@
 		(uuid "72bcb79d-fd42-48a4-b6fc-d1f26623c79d")
 	)
 	(label "E-IMU1"
-		(at 168.91 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "77a9dafe-1e76-470b-8024-f9de90611006")
-	)
-	(label "E-IMU1"
 		(at 175.26 99.06 0)
 		(effects
 			(font
@@ -936,8 +935,19 @@
 		)
 		(uuid "b25ca128-639a-46eb-9138-572b83a972c5")
 	)
-	(label "E-MAG1"
+	(label "E-IMU1"
 		(at 168.91 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "b30868fc-c330-4735-9d07-e0bf42091718")
+	)
+	(label "E-MAG1"
+		(at 168.91 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -981,7 +991,7 @@
 		(uuid "faf33d06-fbc9-464a-b0ea-a0c7586ba98b")
 	)
 	(label "E1-XL2"
-		(at 168.91 76.2 180)
+		(at 168.91 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1462,7 +1472,7 @@
 				(justify left)
 			)
 		)
-		(pin "EXTI_1_MAG" input
+		(pin "EXTI0" input
 			(at 160.02 71.12 0)
 			(uuid "5943a903-8590-4d40-b6e2-e4daebff874a")
 			(effects
@@ -1472,7 +1482,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_1_XL_1" input
+		(pin "EXTI1" input
 			(at 160.02 73.66 0)
 			(uuid "8061551f-0c88-4ac1-9e67-ba1a68d64e91")
 			(effects
@@ -1482,7 +1492,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_1_XL_2" input
+		(pin "EXTI2" input
 			(at 160.02 76.2 0)
 			(uuid "68d1aec3-bc00-46ab-a3de-6eacff67dca3")
 			(effects
@@ -1492,7 +1502,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_2_MAG" input
+		(pin "EXTI3" input
 			(at 160.02 78.74 0)
 			(uuid "43121036-779f-41f8-b93b-4ed1c64a3ceb")
 			(effects
@@ -1502,7 +1512,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_2_XL_1" input
+		(pin "EXTI4" input
 			(at 160.02 81.28 0)
 			(uuid "270e4170-155c-43a1-b816-865ab75bbf4c")
 			(effects
@@ -1512,7 +1522,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_2_XL_2" input
+		(pin "EXTI5" input
 			(at 160.02 83.82 0)
 			(uuid "9ea67c64-a44f-4dd3-b7f3-a6a0dd003ed9")
 			(effects
@@ -1522,7 +1532,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_IMU_1" input
+		(pin "EXTI6" input
 			(at 160.02 86.36 0)
 			(uuid "7e358e09-a7cd-4203-9a07-be994eb628b3")
 			(effects
@@ -1532,7 +1542,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_IMU_2" input
+		(pin "EXTI7" input
 			(at 160.02 88.9 0)
 			(uuid "c60a171a-b961-41a8-98bc-cafa295c822d")
 			(effects
@@ -1542,7 +1552,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_WLS" input
+		(pin "EXTI8" input
 			(at 160.02 91.44 0)
 			(uuid "5a2ee17f-662a-4343-905b-e7b7662a494b")
 			(effects
@@ -1552,7 +1562,7 @@
 				(justify right)
 			)
 		)
-		(pin "EXTI_PG" input
+		(pin "EXTI9" input
 			(at 132.08 71.12 180)
 			(uuid "cadf6aa7-8e39-4396-80ea-1e27d49b3b0b")
 			(effects
@@ -1595,6 +1605,16 @@
 		(pin "USART1_TX" bidirectional
 			(at 132.08 105.41 180)
 			(uuid "f309d595-d10f-4866-a007-705f5a2dc174")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISARM" output
+			(at 146.05 119.38 270)
+			(uuid "17f1651b-e1a4-48a8-820d-0ba0cf232e8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1849,7 @@
 	)
 	(sheet
 		(at 132.08 123.19)
-		(size 27.94 16.51)
+		(size 27.94 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1843,7 +1863,7 @@
 		)
 		(uuid "7178d69a-df26-430a-b78a-a325c6e283cb")
 		(property "Sheetname" "PWM_OUT"
-			(at 146.05 137.668 0)
+			(at 154.94 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1939,6 +1959,16 @@
 		(pin "ESC_THR_8" input
 			(at 157.48 123.19 90)
 			(uuid "65255e57-113b-4eda-a5ef-fb5b0344de86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISARM" input
+			(at 146.05 123.19 90)
+			(uuid "08c7d1e6-d05f-4e7a-82c3-0a9ebb6a1c32")
 			(effects
 				(font
 					(size 1.27 1.27)
